@@ -1,5 +1,5 @@
 # Chimera-lab - Template Repository
-![Chimera-lab :lion: :goat: :snake:](https://github.com/chimera-lab/art/blob/main/logo/novem/chimera-lab-banner.png "Chim")
+![Chimera-lab :lion: :goat: :snake:](https://github.com/chimera-lab/art/blob/main/logo/novem/chimera-lab-banner.png "Chimera-lab")
 
 
 ## Table of Content
