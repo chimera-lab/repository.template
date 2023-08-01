@@ -51,4 +51,4 @@ gh repo create my-awesome-repository --public --template git@github.com:chimera-
 ### Repository
 > _"In version control systems, a repository is a data structure that stores metadata for a set of files or directory structure."_ [^1]
 
-[^1] [Wikipedia - Repository(version Control)](https://en.wikipedia.org/wiki/Repository_(version_control))
+[^1]: [Wikipedia - Repository(version Control)](https://en.wikipedia.org/wiki/Repository_(version_control))
