@@ -43,6 +43,7 @@ gh repo create my-awesome-repository --public --template git@github.com:chimera-
 
 ## Notes
 > In order to use a repository as a template of another one that you created you need to create a repository and set it as template in `Settings -> General -> Template repository`
+> You can place `README.md` files outside of project's root as documented [GitHub - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#about-readmes)
 
 ## Glossary
 - [Repository](#repository)
