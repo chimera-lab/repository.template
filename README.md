@@ -14,41 +14,46 @@
     - [Using `gh` CLI](#using-gh-cli)
     - [Using github.com](#using-githubcom)
   - [Notes](#notes)
+- [Appendix](#appendix)
   - [Glossary](#glossary)
     - [Repository](#repository)
+  - [References](#references)
 
 ## Introduction
 This is a template repository for general project
 ### Why I made this
 I made this in order to improve my projects and study documents.
 ### How I made this
-Just need to create a repository and set it as template in `Settings -> General -> Template repository` and use it as a reference when creating a new repository. 
+Just need to create a repository[^g1] and set it as template in `Settings -> General -> Template repository` and use it as a reference when creating a new repository[^g1]. 
 You can also use this one, for example.
 
 ## About
 ### Requirements
-The use of this repository as a template repository requires a machine with `git` and `gh`
+The use of this repository[^g1] as a template repository[^g1] requires a machine with `git` and `gh`
 ### To-do list
-- [x] Make a template repository
+- [x] Make a template repository[^g1]
 
 ## How to use this
-There is two ways of using this repository as a template.
+There is two ways of using this repository[^g1] as a template.
 ### Using `gh` CLI
 ```bash
 gh repo create my-awesome-repository --public --template git@github.com:chimera-lab/template-repository.git 
 ```
 ### Using [github.com](github.com)
-- Navigate to your template repository
+- Navigate to your template repository[^g1]
 - Fill the form at `Use this template -> Create a new repository`
 
 ## Notes
-> In order to use a repository as a template of another one that you created you need to create a repository and set it as template in `Settings -> General -> Template repository`
+> In order to use a repository[^g1] as a template of another one that you created you need to create a repository[^g1] and set it as template in `Settings -> General -> Template repository`
 > You can place `README.md` files outside of project's root as documented [GitHub - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#about-readmes)
+
+# Appendix
 
 ## Glossary
 - [Repository](#repository)
 
 ### Repository
-> _"In version control systems, a repository is a data structure that stores metadata for a set of files or directory structure."_ [^1]
+[^g1]: _"In version control systems, a repository[^g1] is a data structure that stores metadata for a set of files or directory structure."_ [^r1]
 
-[^1]: [Wikipedia - Repository(version Control)](https://en.wikipedia.org/wiki/Repository_(version_control))
+## References
+[^r1]: [Wikipedia - Repository(version Control)](https://en.wikipedia.org/wiki/Repository_(version_control))
