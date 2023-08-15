@@ -12,48 +12,49 @@
     - [To-do list](#to-do-list)
   - [How to use this](#how-to-use-this)
     - [Using `gh` CLI](#using-gh-cli)
-    - [Using github.com](#using-githubcom)
+    - [Using github.com :link:](#using-githubcom-link)
   - [Notes](#notes)
 - [Appendix](#appendix)
-  - [Glossary](#glossary)
+  - [Glossary :mag:](#glossary-mag)
     - [Repository](#repository)
   - [References](#references)
 
 ## Introduction
-This is a template repository for general project
+This is a template [repository :mag:](#repository) for general project
 ### Why I made this
 I made this in order to improve my projects and study documents.
 ### How I made this
-Just need to create a repository[^g1] and set it as template in `Settings -> General -> Template repository` and use it as a reference when creating a new repository[^g1]. 
+Just need to create a [repository :mag:](#repository) and set it as template in `Settings -> General -> Template repository` and use it as a reference when creating a new [repository :mag:](#repository). 
 You can also use this one, for example.
 
 ## About
 ### Requirements
-The use of this repository[^g1] as a template repository[^g1] requires a machine with `git` and `gh`
+The use of this [repository :mag:](#repository) as a template [repository :mag:](#repository) requires a machine with `git` and `gh`
 ### To-do list
-- [x] Make a template repository[^g1]
+- [x] Make a template [repository :mag:](#repository)
 
 ## How to use this
-There is two ways of using this repository[^g1] as a template.
+There is two ways of using this [repository :mag:](#repository) as a template.
 ### Using `gh` CLI
 ```bash
 gh repo create my-awesome-repository --public --template git@github.com:chimera-lab/template-repository.git 
 ```
-### Using [github.com](github.com)
-- Navigate to your template repository[^g1]
+### Using [github.com :link:](github.com)
+- Navigate to your template [repository :mag:](#repository)
 - Fill the form at `Use this template -> Create a new repository`
 
 ## Notes
-> In order to use a repository[^g1] as a template of another one that you created you need to create a repository[^g1] and set it as template in `Settings -> General -> Template repository`
+> In order to use a [repository :mag:](#repository) as a template of another one that you created you need to create a [repository :mag:](#repository) and set it as template in `Settings -> General -> Template repository`
+
 > You can place `README.md` files outside of project's root as documented [GitHub - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#about-readmes)
 
 # Appendix
 
-## Glossary
+## Glossary :mag:
 - [Repository](#repository)
 
 ### Repository
-[^g1]: _"In version control systems, a repository[^g1] is a data structure that stores metadata for a set of files or directory structure."_ [^r1]
+> _"In version control systems, a repository is a data structure that stores metadata for a set of files or directory structure."_ [^1]
 
 ## References
-[^r1]: [Wikipedia - Repository(version Control)](https://en.wikipedia.org/wiki/Repository_(version_control))
+[^1]: [Wikipedia - Repository(version Control)](https://en.wikipedia.org/wiki/Repository_(version_control))
