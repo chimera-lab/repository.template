@@ -18,6 +18,8 @@
   - [Glossary :mag:](#glossary-mag)
     - [Repository](#repository)
   - [References](#references)
+  - [See also](#see-also)
+  - [Credits](#credits)
 
 ## Introduction
 This is a template [repository :mag:](#repository) for general project
@@ -58,3 +60,7 @@ gh repo create my-awesome-repository --public --template git@github.com:chimera-
 
 ## References
 [^1]: [Wikipedia - Repository(version Control)](https://en.wikipedia.org/wiki/Repository_(version_control))
+
+## See also
+
+## Credits
