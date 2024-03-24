@@ -1,6 +1,6 @@
 # Chimera-lab - Template Repository
 
-(version=1.0.0)
+<!--(version=1.0.0)-->
 
 ![Chimera-lab :lion: :goat: :snake:](https://github.com/chimera-lab/art/blob/main/logo/novem/chimera-lab-banner.png "Chimera-lab")
 
