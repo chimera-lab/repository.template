@@ -1,0 +1,37 @@
+name: Documentation
+description: Report missing or unclear documentation
+labels: ["type:documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Description
+        Describe the documentation issue.
+        
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Where in the documentation is the issue?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Documentation
+      description: What does it currently say?
+      
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: How should it be improved?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other relevant information

@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["type:feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Description
+        Provide a clear description of the requested feature.
+        
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this solve?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How should this feature work?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Other solutions or approaches you've considered
+      
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Use Cases
+      description: Where would this feature be useful?
+      
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other relevant information

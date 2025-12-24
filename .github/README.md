@@ -1,69 +1,86 @@
-# Chimera-lab - Template Repository
+# 📋 Chimera Lab - Template Repository
 
 <!--(version=1.0.0)-->
 
 ![Chimera-lab :lion: :goat: :snake:](https://github.com/chimera-lab/art/blob/main/logo/novem/chimera-lab-banner.png "Chimera-lab")
 
-## Table of Content
+## 📖 Table of Content
 
-- [Chimera-lab - Template Repository](#chimera-lab---template-repository)
-  - [Table of Content](#table-of-content)
-  - [:loudspeaker: Introduction](#loudspeaker-introduction)
-    - [:loudspeaker: Why I made this](#loudspeaker-why-i-made-this)
-    - [:loudspeaker: How I made this](#loudspeaker-how-i-made-this)
-  - [:telescope: Overview](#telescope-overview)
-    - [:clipboard: Requirements](#clipboard-requirements)
-    - [:memo: To-do list](#memo-to-do-list)
-  - [:keyboard: Usage](#keyboard-usage)
-    - [Using `gh` CLI](#using-gh-cli)
-    - [Using github.com :link:](#using-githubcom-link)
-  - [:paperclip: Appendix](#paperclip-appendix)
-    - [:notebook: Notes](#notebook-notes)
-    - [:books: References](#books-references)
+- [Chimera Lab - Template Repository](#-chimera-lab---template-repository)
+- [Introduction](#introduction)
+- [Overview](#overview)
+- [Usage](#usage)
+- [Appendix](#appendix)
 
-## :loudspeaker: Introduction
+## 📣 Introduction
 
-This is a template [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag) for general project
+This is a base template repository for all Chimera Lab projects.
 
-### :loudspeaker: Why I made this
+### Why This Template
 
-I made this in order to improve my projects and study documents.
+This template provides a foundation for consistency across all Chimera Lab repositories, including:
 
-### :loudspeaker: How I made this
+- Standardized documentation structure
+- Common GitHub configurations
+- Contribution guidelines
+- Metadata and organization standards
 
-Just need to create a [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag) and set it as template in `Settings -> General -> Template repository` and use it as a reference when creating a new [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag).\
-You can also use this one, for example.
+### How to Use This Template
 
-## :telescope: Overview
+1. Navigate to this template on GitHub
+2. Click "Use this template"
+3. Fill in your repository details
+4. Clone and customize as needed
 
-### :clipboard: Requirements
+Alternatively, use the Chimera Lab CLI or GitHub CLI to create new repositories from this template.
 
-The use of this [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag) as a template [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag) requires a machine with `git` and `gh`
+## 🔭 Overview
 
-### :memo: To-do list
+### Requirements
 
-- [x] Make a template [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag)
+To use this template, you need:
 
-## :keyboard: Usage
+- `git` installed
+- `gh` (GitHub CLI) or GitHub web access
+- A GitHub account
 
-There is two ways of using this [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag) as a template.
+### What's Included
 
-### Using `gh` CLI
+- Standard README, CONTRIBUTING, LICENSE files
+- GitHub issue templates
+- Repository metadata (.chimera-lab/)
+- Organization guidelines
+
+## ⌨️ Usage
+
+### Using GitHub CLI
 
 ```bash
-gh repo create my-awesome-repository --public --template git@github.com:chimera-lab/template-repository.git 
+gh repo create my-awesome-repository --public --template chimera-lab/repository.template
 ```
 
-### Using [github.com :link:](github.com)
+### Using GitHub Web Interface
 
-- Navigate to your template [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag)
-- Fill the form at `Use this template -> Create a new repository`
+1. Navigate to this template repository
+2. Click "Use this template"
+3. Create a new repository
 
-## :paperclip: Appendix
+### Using Chimera Lab CLI
 
-### :notebook: Notes
+```bash
+cmr repo init my-repo --template repository.template --topic original.topic
+```
 
-> In order to use a [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag) as a template of another one that you created you need to create a [repository :mag:](https://github.com/chimera-lab/template-topic/tree/main/.github#glossary-mag) and set it as template in `Settings -> General -> Template repository`
-> You can place `README.md` files outside of project's root as documented [GitHub - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#about-readmes)
+## 📎 Appendix
 
-### :books: References
+### Notes
+
+- To use a repository as a template, mark it as such in `Settings -> General -> Template repository`
+- You can place `README.md` files outside the project root as documented in [GitHub - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#about-readmes)
+- Template repositories are marked in `.chimera-lab/meta.json` with `is_template: true`
+
+### References
+
+- [GitHub Templates Documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+- [Chimera Lab Organization](https://chimera-lab.org)
+- [Chimera Lab CLI](https://github.com/chimera-lab/chimera-lab-cli.app)
