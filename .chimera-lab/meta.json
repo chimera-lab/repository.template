@@ -1,7 +1,7 @@
 {
   "name": "repository.template",
   "description": "Foundation template for all chimera-lab repositories. Provides README, LICENSE, CONTRIBUTING, and .chimera-lab/ structure.",
-  "template": null,
+  "template": ".template",
   "parent": "template.topic",
   "level": 0,
   "is_template": true,
