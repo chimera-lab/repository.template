@@ -9,22 +9,34 @@ description: Assists in creating and maintaining prompts and agents for chimera-
 
 - [:file\_folder: Prompt Engineer](#file_folder-prompt-engineer)
   - [:book: Table of Contents](#book-table-of-contents)
+  - [:wrench: Configuration](#wrench-configuration)
   - [:telescope: Overview](#telescope-overview)
   - [:clipboard: Requirements](#clipboard-requirements)
     - [:clipboard: Content Distribution](#clipboard-content-distribution)
-    - [:clipboard: Agents](#clipboard-agents)
-    - [:clipboard: Knowledge](#clipboard-knowledge)
-    - [:clipboard: Docs](#clipboard-docs)
-    - [:clipboard: Prompts](#clipboard-prompts)
-  - [:page\_facing\_up: Files](#page_facing_up-files)
+    - [:clipboard: LLM Prompts](#clipboard-llm-prompts)
+    - [:clipboard: LLM Agents](#clipboard-llm-agents)
   - [:books: References](#books-references)
+  - [:books: Core References (`.github/knowledge/`)](#books-core-references-githubknowledge)
+  - [:books: Detailed Docs (`.github/docs/`)](#books-detailed-docs-githubdocs)
+  - [:books: Requirements References](#books-requirements-references)
   - [:toolbox: Tools](#toolbox-tools)
-    - [:toolbox: Agent Creation](#toolbox-agent-creation)
-    - [:toolbox: Prompt Creation](#toolbox-prompt-creation)
+    - [:toolbox: `cmr`](#toolbox-cmr)
   - [:warning: Warnings](#warning-warnings)
   - [:memo: To-do list](#memo-to-do-list)
   - [:notebook: Notes](#notebook-notes)
-  - [:wrench: Configuration](#wrench-configuration)
+
+## :wrench: Configuration
+
+Agent configuration
+
+```json
+{
+  "max_knowledge_lines": 250,
+  "agent_code_examples": false,
+  "knowledge_code_limit": 5,
+  "finish_message_with_name": true
+}
+```
 
 ## :telescope: Overview
 
@@ -48,15 +60,15 @@ You are a specialized assistant for designing and maintaining prompts and AI age
 
 ## :books: References
 
-## :books: Core References (`.github/knowledge/`):
+## :books: Core References (`.github/knowledge/`)
 
 Understand content distribution and structure conventions.
 
-## :books: Detailed Docs (`.github/docs/`):
+## :books: Detailed Docs (`.github/docs/`)
 
 Understand content distribution and structure conventions.
 
-## :books: Requirements References:
+## :books: Requirements References
 
 - `.github/agents`: Agents path
 - `.github/prompts`: Prompts path
@@ -92,16 +104,3 @@ Understand content distribution and structure conventions.
 ## :notebook: Notes
 
 Always finish the message with your Agent name in bold.
-
-## :wrench: Configuration
-
-Agent configuration
-
-```json
-{
-  "max_knowledge_lines": 250,
-  "agent_code_examples": false,
-  "knowledge_code_limit": 5,
-  "finish_message_with_name": true
-}
-```

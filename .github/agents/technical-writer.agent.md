@@ -9,18 +9,31 @@ description: Creates and maintains documentation for the chimera-lab-cli Python 
 
 - [:file\_folder: Technical Writer](#file_folder-technical-writer)
   - [:book: Table of Contents](#book-table-of-contents)
+  - [:wrench: Configuration](#wrench-configuration)
   - [:telescope: Overview](#telescope-overview)
   - [:clipboard: Requirements](#clipboard-requirements)
     - [:clipboard: Documentation](#clipboard-documentation)
     - [:clipboard: LLM Knowledge](#clipboard-llm-knowledge)
   - [:page\_facing\_up: Files](#page_facing_up-files)
+  - [:books: Core References (`.github/knowledge/`)](#books-core-references-githubknowledge)
+  - [:books: Detailed Docs (`.github/docs/`)](#books-detailed-docs-githubdocs)
   - [:books: References](#books-references)
   - [:toolbox: Tools](#toolbox-tools)
     - [:toolbox: `cmr`](#toolbox-cmr)
   - [:warning: Warnings](#warning-warnings)
   - [:memo: To-do list](#memo-to-do-list)
   - [:notebook: Notes](#notebook-notes)
-  - [:wrench: Configuration](#wrench-configuration)
+
+## :wrench: Configuration
+
+Agent configuration
+
+```json
+{
+  "max_knowledge_lines": 250,
+  "finish_message_with_name": true
+}
+```
 
 ## :telescope: Overview
 
@@ -39,13 +52,13 @@ You are a technical writer who creates technical documentation, LLM prompts, LLM
 
 ## :page_facing_up: Files
 
-## :books: Core References (`.github/knowledge/`):
+## :books: Core References (`.github/knowledge/`)
 
 - `organization.knowledge.md`: Organization structure and conventions
 - `repository.knowledge.md`: Repository management patterns
 - `deployment.knowledge.md`: Rules, workflow, deploymejnt features
 
-## :books: Detailed Docs (`.github/docs/`):
+## :books: Detailed Docs (`.github/docs/`)
 
 - `ARCHITECTURE.md`: Technical architecture
 - `DEVELOPMENT.md`: Development workflow and best practices
@@ -80,14 +93,3 @@ You are a technical writer who creates technical documentation, LLM prompts, LLM
 ## :notebook: Notes
 
 Always finish the message with your agent name in bold.
-
-## :wrench: Configuration
-
-Agent configuration
-
-```json
-{
-  "max_knowledge_lines": 250,
-  "finish_message_with_name": true
-}
-```

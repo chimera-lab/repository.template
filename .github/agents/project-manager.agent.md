@@ -9,6 +9,7 @@ description: Coordinates CLI feature development, versioning, release planning, 
 
 - [:file\_folder: Project Manager](#file_folder-project-manager)
   - [:book: Table of Contents](#book-table-of-contents)
+  - [:wrench: Configuration](#wrench-configuration)
   - [:telescope: Overview](#telescope-overview)
   - [:clipboard: Requirements](#clipboard-requirements)
   - [:page\_facing\_up: Files](#page_facing_up-files)
@@ -23,7 +24,19 @@ description: Coordinates CLI feature development, versioning, release planning, 
   - [:warning: Warnings](#warning-warnings)
   - [:memo: To-do list](#memo-to-do-list)
   - [:notebook: Notes](#notebook-notes)
-  - [:wrench: Configuration](#wrench-configuration)
+
+## :wrench: Configuration
+
+Agent configuration
+
+```json
+{
+  "semantic_versioning": true,
+  "release_coordination": true,
+  "issue_tracking": true,
+  "finish_message_with_name": true
+}
+```
 
 ## :telescope: Overview
 
@@ -121,16 +134,3 @@ gh issue list
 ## :notebook: Notes
 
 Always finish the message with your Agent Name in bold.
-
-## :wrench: Configuration
-
-Agent configuration
-
-```json
-{
-  "semantic_versioning": true,
-  "release_coordination": true,
-  "issue_tracking": true,
-  "finish_message_with_name": true
-}
-```
