@@ -1,84 +1,42 @@
-______________________________________________________________________
+---
+name: explain-issue
+agent: project-manager
+description: Analyze GitHub issue and determine responsible agent
+---
 
-## agent: project-manager description: Analyze GitHub issue using gh cli, determine responsible agent, and provide detailed context
+# :file_folder: Explain Issue
 
-# Explain Issue
+## :world_map: Analysis
 
-## :book: Table of Contents
+### :compass: Retrieve Issue Details
 
-- [Explain Issue](#explain-issue)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [agent: project-manager description: Analyze GitHub issue using gh cli, determine responsible agent, and provide detailed context](#agent-project-manager-description-analyze-github-issue-using-gh-cli-determine-responsible-agent-and-provide-detailed-context)
-  - [:book: Table of content](#book-table-of-content)
-  - [:book: Table of content](#book-table-of-content)
-  - [Objective](#objective)
-  - [Instructions](#instructions)
-  - [Output Format](#output-format)
+- Get issue from GitHub
+- Extract title, body, labels, milestone
+- Identify context and references
 
-## :book: Table of content
+### :compass: Analyze Requirements
 
-- [Table of content](#table-of-content)
-  - [agent: project-manager
-    description: Analyze GitHub issue using gh cli, determine responsible agent, and provide detailed context](#agent-project-manager-description-analyze-github-issue-using-gh-cli-determine-responsible-agent-and-provide-detailed-context)
-- [Explain Issue](#explain-issue)
-  - [:book: Table of content](#book-table-of-content)
-  - [Objective](#objective)
-  - [Instructions](#instructions)
-  - [Output Format](#output-format)
+- What needs to be done?
+- Technical requirements identified?
+- Dependencies documented?
 
-## :book: Table of content
+### :compass: Determine Agent
 
-- [agent: project-manager
-  description: Analyze GitHub issue using gh cli, determine responsible agent, and provide detailed context](#agent-project-manager-description-analyze-github-issue-using-gh-cli-determine-responsible-agent-and-provide-detailed-context)
-- [Table of content](#table-of-content)
-- [Objective](#objective)
-- [Instructions](#instructions)
-- [Output Format](#output-format)
+- CLI work? → `cli-developer`
+- Code architecture? → `python-architect`
+- Documentation? → `technical-writer`
+- Git/GitHub operations? → `repository-manager`
+- Coordination/Planning? → `project-manager`
 
-## Objective
+### :compass: Decompose
 
-Analyze a GitHub issue to understand its requirements and assign it to the appropriate specialized agent.
+- Break into actionable steps
+- Identify agents needed
+- Order by dependencies
 
-## Instructions
+## :world_map: Output
 
-1. **Retrieve Issue Details**
-
-   - Use `gh issue view <issue-number>` to fetch complete issue information
-   - Extract title, description, labels, and comments
-   - Identify issue type (bug, feature, documentation, etc.)
-
-1. **Analyze Requirements**
-
-   - Parse issue description and identify:
-     - Affected components or modules
-     - Required changes (code, docs, config, etc.)
-     - Priority and urgency indicators
-     - Related files or directories
-
-1. **Determine Responsible Agent**
-
-   - Based on issue content, recommend the most appropriate agent:
-     - `cli-developer` - CLI command implementation, modules, GitHub API integration
-     - `python-architect` - Architecture design, type system, Pydantic models
-     - `technical-writer` - Documentation updates, knowledge base, guides
-     - `repository-manager` - Repository maintenance, Git operations, releases
-     - `project-manager` - Feature planning, milestones, coordination
-     - `prompt-engineer` - Agent/prompt creation or updates
-
-1. **Provide Context**
-
-   - Summarize key requirements for the assigned agent
-   - Highlight specific files or patterns mentioned
-   - Note any dependencies or blockers
-   - Include relevant issue metadata (labels, milestone, etc.)
-
-## Output Format
-
-Provide a clear summary:
-
-- Issue number and title
-- Issue type and priority
-- **Recommended Agent**: [agent-name]
-- **Key Requirements**: Bullet points of what needs to be done
-- **Affected Areas**: Files, directories, or modules involved
-- **Additional Context**: Any important details from comments or description
+- Issue summary
+- Required agent(s)
+- Task steps
+- Estimated effort

@@ -1,18 +1,27 @@
 ---
 name: work
-description: This prompt is used to assist with work-related tasks.
+description: Break down and execute work-related tasks
 ---
 
-# Work
+# :file_folder: Work
 
-Work on the next task or the the sugested path.
+## :world_map: Task Execution
 
-## :memo: To-do list
+### :compass: Understand Requirements
 
-- Understand context and requirements of the work.
-- Break down the work into manageable tasks.
-- Use `manage_todo_list` tool to create a detailed plan.
-- Ask user for any clarifications if needed.
-- Review relevant documentation and knowledge bases.
-- Start executing the plan step by step.
+- Clarify what needs to be done
+- Identify constraints and dependencies
+- Define success criteria
 
+### :compass: Break Down Tasks
+
+- Divide into smaller actionable steps
+- Create logical sequence
+- Identify parallel opportunities
+
+### :compass: Execute
+
+- Follow steps systematically
+- Test and validate
+- Document progress
+- Handle issues immediately

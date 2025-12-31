@@ -1,11 +1,6 @@
 {
   "name": "repository.template",
-  "description": "Foundation template for all chimera-lab repositories. Provides README, LICENSE, CONTRIBUTING, and .chimera-lab/ structure.",
-  "template": ".template",
-  "parent": "template.topic",
-  "level": 0,
-  "is_template": true,
-  "created_at": "2025-01-01",
-  "version": "1.0.0",
-  "status": "active"
+  "description": "Repository repository.template",
+  "tags": [],
+  "authors": []
 }

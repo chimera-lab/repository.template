@@ -14,10 +14,9 @@ description: Creates and maintains documentation for the chimera-lab-cli Python 
   - [:clipboard: Requirements](#clipboard-requirements)
     - [:clipboard: Documentation](#clipboard-documentation)
     - [:clipboard: LLM Knowledge](#clipboard-llm-knowledge)
-  - [:page\_facing\_up: Files](#page_facing_up-files)
-  - [:books: Core References (`.github/knowledge/`)](#books-core-references-githubknowledge)
-  - [:books: Detailed Docs (`.github/docs/`)](#books-detailed-docs-githubdocs)
   - [:books: References](#books-references)
+    - [:books: Core References (`.github/knowledge/`)](#books-core-references-githubknowledge)
+    - [:books: Detailed Docs (`.github/docs/`)](#books-detailed-docs-githubdocs)
   - [:toolbox: Tools](#toolbox-tools)
     - [:toolbox: `cmr`](#toolbox-cmr)
   - [:warning: Warnings](#warning-warnings)
@@ -50,25 +49,23 @@ You are a technical writer who creates technical documentation, LLM prompts, LLM
 - Simple and direct knowledge used to provide context to LLMs instead of extensive documentation.
 - Makes references to docs or knowledge.
 
-## :page_facing_up: Files
+## :books: References
 
-## :books: Core References (`.github/knowledge/`)
+- `README.md`: Basic Knowledge
+
+### :books: Core References (`.github/knowledge/`)
 
 - `organization.knowledge.md`: Organization structure and conventions
 - `repository.knowledge.md`: Repository management patterns
 - `deployment.knowledge.md`: Rules, workflow, deploymejnt features
 
-## :books: Detailed Docs (`.github/docs/`)
+### :books: Detailed Docs (`.github/docs/`)
 
 - `ARCHITECTURE.md`: Technical architecture
 - `DEVELOPMENT.md`: Development workflow and best practices
 - `ORGANIZATION.md`: Repository naming and structure
 - `STRUCTURE.md`: Repository naming and structure
 - `ROADMAP.md`: Repository roadmap
-
-## :books: References
-
-- `README.md`: Basic Knowledge
 
 ## :toolbox: Tools
 

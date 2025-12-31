@@ -1,25 +1,18 @@
-______________________________________________________________________
+---
+name: go
+description: General confirmation to continue execution
+---
 
-## description: General confirmation to continue execution with recommended action
+## :world_map: Confirm and Continue
 
-# Go
+### :compass: Validate Understanding
 
-## :book: Table of Contents
+- Confirm requirements understood
+- Check all information available
+- Identify blockers
 
-- [Go](#go)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [description: General confirmation to continue execution with recommended action](#description-general-confirmation-to-continue-execution-with-recommended-action)
-  - [:book: Table of content](#book-table-of-content)
-  - [:book: Table of content](#book-table-of-content)
+### :compass: Proceed
 
-## :book: Table of content
-
-- [Table of content](#table-of-content)
-  - [description: General confirmation to continue execution with recommended action](#description-general-confirmation-to-continue-execution-with-recommended-action)
-- [Go](#go)
-  - [:book: Table of content](#book-table-of-content)
-
-## :book: Table of content
-
-- [description: General confirmation to continue execution with recommended action](#description-general-confirmation-to-continue-execution-with-recommended-action)
-- [Table of content](#table-of-content)
+- Execute next steps
+- Use appropriate agents
+- Report progress

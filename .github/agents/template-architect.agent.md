@@ -12,11 +12,11 @@ description: Structures the documentation for chimera-lab.org multi-repository o
   - [:wrench: Configuration](#wrench-configuration)
   - [:telescope: Overview](#telescope-overview)
   - [:clipboard: Requirements](#clipboard-requirements)
-  - [:toolbox: Tools](#toolbox-tools)
-    - [:toolbox: Strict Headers](#toolbox-strict-headers)
   - [:books: References](#books-references)
     - [:books: Template Inheritance](#books-template-inheritance)
     - [:books: Workflow Process](#books-workflow-process)
+  - [:toolbox: Tools](#toolbox-tools)
+    - [:toolbox: Strict Headers](#toolbox-strict-headers)
   - [:warning: Warnings](#warning-warnings)
   - [:memo: To-do list](#memo-to-do-list)
   - [:notebook: Notes](#notebook-notes)
@@ -48,6 +48,40 @@ You are a documentation architect for the chimera-lab.org multi-repository organ
 - Plan documentation hierarchy and organization
 - Maintain consistency across template inheritance hierarchies
 - Ensure proper markdown formatting and validation
+
+## :books: References
+
+### :books: Template Inheritance
+
+**Hierarchy Understanding**:
+
+Templates inherit in multi-level chains allowing progressive specialization.
+
+**Levels**:
+
+- `repository.template` (base for all)
+  - Core documentation structure
+  - Standard README patterns
+  - Shared documentation files
+
+- Intermediate Templates: Inherit from root, serve as bases
+  - `app.template`: Extends `repository.template` for applications
+  - `scaffold.template`: Extends `repository.template` for Docker scaffolding
+  - `docker_scaffold.template`: Extends `scaffold.template` for Docker-specific
+
+- Specialized Templates: Further specialized
+  - `laravel_app.template`: Extends `app.template` for Laravel
+  - `typescript_app.template`: Extends `app.template` for TypeScript
+  - `laravel_docker_scaffold.template`: Extends `docker_scaffold.template` for Laravel Docker
+
+**Example Chain**: `repository.template` → `app.template` → `laravel_app.template`
+
+- **Inheritance Flow**: Changes propagate top-down through entire hierarchy chain
+  - Modify at highest level needing the change
+  - Changes automatically affect all descendants
+  - Specific templates override inherited defaults when needed
+
+### :books: Workflow Process
 
 ## :toolbox: Tools
 
@@ -84,40 +118,6 @@ Structure should ONLY use approved semantic headers. If a children header is nee
 - :keyboard: Usage
 - :scroll: License
 - :warning: Warnings
-
-## :books: References
-
-### :books: Template Inheritance
-
-**Hierarchy Understanding**:
-
-Templates inherit in multi-level chains allowing progressive specialization.
-
-**Levels**:
-
-- `repository.template` (base for all)
-  - Core documentation structure
-  - Standard README patterns
-  - Shared documentation files
-
-- Intermediate Templates: Inherit from root, serve as bases
-  - `app.template`: Extends `repository.template` for applications
-  - `scaffold.template`: Extends `repository.template` for Docker scaffolding
-  - `docker_scaffold.template`: Extends `scaffold.template` for Docker-specific
-
-- Specialized Templates: Further specialized
-  - `laravel_app.template`: Extends `app.template` for Laravel
-  - `typescript_app.template`: Extends `app.template` for TypeScript
-  - `laravel_docker_scaffold.template`: Extends `docker_scaffold.template` for Laravel Docker
-
-**Example Chain**: `repository.template` → `app.template` → `laravel_app.template`
-
-- **Inheritance Flow**: Changes propagate top-down through entire hierarchy chain
-  - Modify at highest level needing the change
-  - Changes automatically affect all descendants
-  - Specific templates override inherited defaults when needed
-
-### :books: Workflow Process
 
 ## :warning: Warnings
 

@@ -1,57 +1,51 @@
 ---
+name: commit
 agent: repository-manager
-description: Execute SSH key setup and perform git operations with submodule sync.
+description: Execute git operations with SSH setup and submodule sync
 ---
 
-# /commit - Git Commit and Push with Submodules
+# :file_folder: Git Commit
 
-## :book: Table of content
+## :world_map: SSH Setup
 
-(#agent-repository-manager-description-execute-ssh-key-setup-and-perform-git-operations-with-submodule-sync)
-- [Table of content](#table-of-content)
-- [1. Verify SSH Access](#1-verify-ssh-access)
-- [2. SSH Key Setup](#2-ssh-key-setup)
-- [3. Git Operations](#3-git-operations)
-- [Expected Output](#expected-output)
-- [Error Handling](#error-handling)
+### :compass: Verify SSH Access
 
-## 1. Verify SSH Access
+- Test: `ssh -T git@github.com`
+- If fails, setup SSH key
 
-Check if SSH is accessible:
+### :compass: Setup SSH Key
 
-- Test connection: `ssh -T git@github.com`
-- If fails, check terminal history for previous SSH setup commands
+- Eval agent: `eval "$(ssh-agent -s)"`
+- Add key: `ssh-add ~/.ssh/*github.com`
 
-## :gear: 2. SSH Key Setup
+## :world_map: Git Operations
 
-If the SSH access steps failt, show one line execution for:
+### :compass: Check Changes
 
-- Eval ssh socket: `eval "$(ssh-agent -s)"`
-- Add SSH key with "github" in name: `ssh-add ~/.ssh/*github.com`
+- `git status`
+- `git submodule foreach --recursive 'git status'`
+- Skip submodule ops if no changes
 
-## 3. Git Operations
+### :compass: Sync Remote
 
-Using `git` and `git submodule --recursive` for faster execution:
+- Fetch: `git fetch --prune`
+- Pull: `git pull`
+- Submodule: `git submodule foreach --recursive 'git fetch --prune && git pull'`
 
-1. **Check for changes**: `git status` and `git submodule foreach --recursive 'git status'`
-   - If no submodule changes detected, skip all submodule operations (fetch, pull, push)
-2. **Fetch and prune**: `git fetch --prune` and `git submodule foreach --recursive 'git fetch --prune'`
-3. **Pull changes**: `git pull` and `git submodule foreach --recursive 'git pull'`
-4. **Analyze changes**: Review all changes in main repo and submodules, list modified files by type
-5. **Create logical commit groups**: Group related changes together using conventional commit format
-6. **Stage and commit**: For each logical group, stage files and create a commit with appropriate conventional commit message
-7. **Push**: `git push` and `git submodule foreach --recursive 'git push'`
+### :compass: Commit Changes
 
-## Expected Output
+- Group related changes logically
+- Create commits: conventional format
+- Each group gets its own commit
 
-- SSH agent PID confirmation
-- Identity file added confirmation
-- Git status for main repo and all submodules
-- Fetch, pull, commit, and push results
-- Success/failure messages for each operation
+### :compass: Push
 
-## Error Handling
+- `git push`
+- `git submodule foreach --recursive 'git push'`
 
-- Continue execution even if submodules have no changes
-- Report any failed operations
-- Verify SSH key is loaded before proceeding
+## :world_map: Output
+
+- SSH confirmation
+- Git status for all repos
+- Commit hashes
+- Push results

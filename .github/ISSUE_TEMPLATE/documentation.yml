@@ -1,37 +1,42 @@
-name: Documentation
-description: Report missing or unclear documentation
-labels: ["type:documentation"]
+name: Documentation Update
+description: Fix, clarify, or extend documentation
+labels:
+  - type:documentation
 body:
   - type: markdown
     attributes:
       value: |
-        ### Description
-        Describe the documentation issue.
-        
-  - type: textarea
+        ### :page_facing_up: Docs Gap Summary
+        Tell us what is unclear or missing so we can address it quickly.
+  - type: input
     id: location
     attributes:
-      label: Location
-      description: Where in the documentation is the issue?
+      label: Page / Section
+      description: File path, heading, or URL where the issue exists
+      placeholder: docs/guide.md > :world_map: Guide
     validations:
       required: true
-      
   - type: textarea
     id: current
     attributes:
-      label: Current Documentation
-      description: What does it currently say?
-      
-  - type: textarea
-    id: suggestion
-    attributes:
-      label: Suggested Improvement
-      description: How should it be improved?
+      label: Current Text
+      description: Quote or summarize the existing content
     validations:
       required: true
-      
   - type: textarea
-    id: context
+    id: expected
     attributes:
-      label: Additional Context
-      description: Any other relevant information
+      label: Proposed Change
+      description: Provide the revised copy, code sample, or diagram description
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why This Helps
+      description: Explain the confusion resolved or audience served
+  - type: textarea
+    id: assets
+    attributes:
+      label: Assets & References
+      description: Link to related issues, tutorials, screenshots, or specs

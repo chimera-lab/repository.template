@@ -60,11 +60,11 @@ You are a specialized assistant for designing and maintaining prompts and AI age
 
 ## :books: References
 
-## :books: Core References (`.github/knowledge/`)
+### :books: Core References (`.github/knowledge/`)
 
 Understand content distribution and structure conventions.
 
-## :books: Detailed Docs (`.github/docs/`)
+### :books: Detailed Docs (`.github/docs/`)
 
 Understand content distribution and structure conventions.
 
