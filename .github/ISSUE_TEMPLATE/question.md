@@ -1,9 +1,19 @@
+## :book: Table of Contents
+
+- [:loudspeaker: Introduction](#loudspeaker-introduction)
+- [:mag: Terminology](#mag-terminology)
+- [:world\_map: Guide](#world_map-guide)
+- [:page\_facing\_up: Files](#page_facing_up-files)
+- [:link: See also](#link-see-also)
+
 ---
 name: Question (Markdown)
 about: Ask a question or request clarification using markdown fallback
 title: "[Question]: <topic>"
 labels:
+
   - type:question
+
 assignees: ''
 ---
 

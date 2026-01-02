@@ -1,9 +1,21 @@
+## :book: Table of Contents
+
+- [:loudspeaker: Introduction](#loudspeaker-introduction)
+- [:world\_map: Guide](#world_map-guide)
+- [:control\_knobs: Customization](#control_knobs-customization)
+- [:clipboard: Requirements](#clipboard-requirements)
+- [:triangular\_ruler: Technologies](#triangular_ruler-technologies)
+- [:warning: Warnings](#warning-warnings)
+- [:memo: To-do list](#memo-to-do-list)
+
 ---
 name: Feature request (Markdown)
 about: Suggest an enhancement using the markdown fallback template
 title: "[Feature]: <short summary>"
 labels:
+
   - type:feature
+
 assignees: ''
 ---
 
