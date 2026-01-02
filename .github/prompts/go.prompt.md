@@ -1,3 +1,9 @@
+## :book: Table of Contents
+
+- [:world\_map: Confirm and Continue](#world_map-confirm-and-continue)
+  - [:compass: Validate Understanding](#compass-validate-understanding)
+  - [:compass: Proceed](#compass-proceed)
+
 ---
 name: go
 description: General confirmation to continue execution
@@ -10,6 +16,7 @@ description: General confirmation to continue execution
 - Confirm requirements understood
 - Check all information available
 - Identify blockers
+
 
 ### :compass: Proceed
 

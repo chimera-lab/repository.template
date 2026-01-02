@@ -6,6 +6,19 @@ description: Execute git operations with SSH setup and submodule sync
 
 # :file_folder: Git Commit
 
+## :book: Table of Contents
+
+- [:file\_folder: Git Commit](#file_folder-git-commit)
+  - [:world\_map: SSH Setup](#world_map-ssh-setup)
+    - [:compass: Verify SSH Access](#compass-verify-ssh-access)
+    - [:compass: Setup SSH Key](#compass-setup-ssh-key)
+  - [:world\_map: Git Operations](#world_map-git-operations)
+    - [:compass: Check Changes](#compass-check-changes)
+    - [:compass: Sync Remote](#compass-sync-remote)
+    - [:compass: Commit Changes](#compass-commit-changes)
+    - [:compass: Push](#compass-push)
+  - [:world\_map: Output](#world_map-output)
+
 ## :world_map: SSH Setup
 
 ### :compass: Verify SSH Access
@@ -13,10 +26,12 @@ description: Execute git operations with SSH setup and submodule sync
 - Test: `ssh -T git@github.com`
 - If fails, setup SSH key
 
+
 ### :compass: Setup SSH Key
 
 - Eval agent: `eval "$(ssh-agent -s)"`
 - Add key: `ssh-add ~/.ssh/*github.com`
+
 
 ## :world_map: Git Operations
 
@@ -26,11 +41,13 @@ description: Execute git operations with SSH setup and submodule sync
 - `git submodule foreach --recursive 'git status'`
 - Skip submodule ops if no changes
 
+
 ### :compass: Sync Remote
 
 - Fetch: `git fetch --prune`
 - Pull: `git pull`
 - Submodule: `git submodule foreach --recursive 'git fetch --prune && git pull'`
+
 
 ### :compass: Commit Changes
 
@@ -38,10 +55,12 @@ description: Execute git operations with SSH setup and submodule sync
 - Create commits: conventional format
 - Each group gets its own commit
 
+
 ### :compass: Push
 
 - `git push`
 - `git submodule foreach --recursive 'git push'`
+
 
 ## :world_map: Output
 

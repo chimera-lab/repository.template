@@ -6,6 +6,20 @@ description: Plan and structure a milestone with MVP and tasks
 
 # :file_folder: Plan Milestone
 
+## :book: Table of Contents
+
+- [:file\_folder: Plan Milestone](#file_folder-plan-milestone)
+  - [:world\_map: MVP Definition](#world_map-mvp-definition)
+    - [:compass: Define Scope](#compass-define-scope)
+    - [:compass: MVP Requirements](#compass-mvp-requirements)
+  - [:world\_map: Issue Prioritization](#world_map-issue-prioritization)
+    - [:compass: Identify Issues](#compass-identify-issues)
+    - [:compass: Order Dependencies](#compass-order-dependencies)
+  - [:world\_map: Decomposition](#world_map-decomposition)
+    - [:compass: Break Down Large Issues](#compass-break-down-large-issues)
+  - [:world\_map: Communication](#world_map-communication)
+    - [:compass: Plan Communication](#compass-plan-communication)
+
 ## :world_map: MVP Definition
 
 ### :compass: Define Scope
@@ -15,11 +29,13 @@ description: Plan and structure a milestone with MVP and tasks
 - Category: feature, bugfix, docs, etc.
 - Breaking changes? Yes/No
 
+
 ### :compass: MVP Requirements
 
 - Must have: critical features
 - Success criteria: measurable metrics
 - Out of scope: future items
+
 
 ## :world_map: Issue Prioritization
 
@@ -29,11 +45,13 @@ description: Plan and structure a milestone with MVP and tasks
 - Complexity: S (1-2h), M (3-8h), L (1-3d), XL (>3d)
 - Priority: P0 (blocks), P1 (core), P2 (nice), P3 (future)
 
+
 ### :compass: Order Dependencies
 
 - Foundation first
 - Identify blockers
 - Parallel work opportunities
+
 
 ## :world_map: Decomposition
 
@@ -42,6 +60,7 @@ description: Plan and structure a milestone with MVP and tasks
 - L/XL issues into M/S sub-tasks
 - Each with clear agent and complexity
 - Document dependencies between sub-tasks
+
 
 ## :world_map: Communication
 
