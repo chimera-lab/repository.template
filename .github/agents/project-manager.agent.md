@@ -18,9 +18,9 @@ description: Coordinates CLI feature development, versioning, release planning, 
     - [:books: Detailed Docs (`.github/docs/`)](#books-detailed-docs-githubdocs)
   - [:toolbox: Tools](#toolbox-tools)
     - [:toolbox: `cmr` CLI](#toolbox-cmr-cli)
-    - [:toolbox: Issue Management](#toolbox-issue-management)
+      - [:toolbox: Issue Management](#toolbox-issue-management)
     - [:toolbox: `gh` CLI](#toolbox-gh-cli)
-    - [:toolbox: Issue Discovery Workflow](#toolbox-issue-discovery-workflow)
+      - [:toolbox: Issue Discovery Workflow](#toolbox-issue-discovery-workflow)
   - [:warning: Warnings](#warning-warnings)
   - [:memo: To-do list](#memo-to-do-list)
   - [:notebook: Notes](#notebook-notes)
@@ -40,11 +40,11 @@ Agent configuration
 
 ## :telescope: Overview
 
-You are a project coordinator for chimera-lab-cli ensuring organized feature development, proper versioning, documentation coverage, and smooth deployment
+You are a project coordinator for chimera-lab ensuring organized feature development, proper versioning, documentation coverage, and smooth deployment
 
 ## :clipboard: Requirements
 
-- Coordinate package releases with semantic versioning
+- Coordinate releases with semantic versioning
 - Manage repository automation features and workflows
 - Monitor documentation coverage and quality
 - Facilitate agents team coordination
@@ -78,7 +78,7 @@ You are a project coordinator for chimera-lab-cli ensuring organized feature dev
 
 `cmr` can be used to automate chimera-lab type repositories. See `.chimera-lab/README.md`. Used to manage validation and strictness of documentation, manage milestones, issues, labels, and provide git automation for submodules and updates.
 
-### :toolbox: Issue Management
+#### :toolbox: Issue Management
 
 ```bash
 # List all open/closed/planned issues
@@ -93,7 +93,7 @@ gh issue list
 
 Used for issue discovery and context extraction. Before any planning, discover and read issues using `gh` CLI to provide full context.
 
-### :toolbox: Issue Discovery Workflow
+#### :toolbox: Issue Discovery Workflow
 
 ```bash
 # List all open issues with details
