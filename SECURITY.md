@@ -29,5 +29,5 @@
 
 ## :books: References
 
-- Primary security contact: [{{org.contacts.email.security}}](mailto:{{org.contacts.email.security}}).
+- Primary security contact: [{{org.contacts.email.security}}](mailto:%7B%7Borg.contacts.email.security%7D%7D).
 - Review [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for expected behavior when communicating about security issues.

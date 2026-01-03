@@ -9,6 +9,7 @@ description: Create executable task lists from GitHub issues
 ## :book: Table of Contents
 
 - [:file\_folder: Plan Execution](#file_folder-plan-execution)
+  - [:book: Table of Contents](#book-table-of-contents)
   - [:world\_map: Issue Analysis](#world_map-issue-analysis)
     - [:compass: Fetch Issues](#compass-fetch-issues)
     - [:compass: Analyze Each](#compass-analyze-each)
@@ -27,7 +28,6 @@ description: Create executable task lists from GitHub issues
 - Milestone: `gh issue list --milestone "v0.x.0"`
 - Extract: title, body, labels, milestone
 
-
 ### :compass: Analyze Each
 
 - Clear acceptance criteria?
@@ -35,14 +35,12 @@ description: Create executable task lists from GitHub issues
 - Module/component identified?
 - Dependencies documented?
 
-
 ### :compass: Validate Decomposition
 
 - Single focused objective?
 - Actionable steps clear?
 - Estimated effort < 1 day?
 - No ambiguous requirements?
-
 
 ## :world_map: Task Planning
 
@@ -52,7 +50,6 @@ description: Create executable task lists from GitHub issues
 - Format: `#<issue>: <action> - @<agent>`
 - Include: issue, module, goal, steps, dependencies
 
-
 ### :compass: Order Tasks
 
 - Foundation first: models, utilities
@@ -61,7 +58,6 @@ description: Create executable task lists from GitHub issues
 - Documentation: knowledge, docs
 - Integration: workflows, releases
 
-
 ### :compass: Assign Agents
 
 - `cli-developer` - Commands, Typer, Rich, CLI logic
@@ -69,7 +65,6 @@ description: Create executable task lists from GitHub issues
 - `technical-writer` - Docs, knowledge, README
 - `repository-manager` - Git, GitHub, releases
 - `project-manager` - Coordination, planning
-
 
 ## :world_map: Output
 

@@ -9,6 +9,7 @@ description: Validate and improve documentation files
 ## :book: Table of Contents
 
 - [:file\_folder: Fix Docs](#file_folder-fix-docs)
+  - [:book: Table of Contents](#book-table-of-contents)
   - [:world\_map: Documentation Review](#world_map-documentation-review)
     - [:compass: Discover Files](#compass-discover-files)
     - [:compass: Validate Content](#compass-validate-content)
@@ -25,13 +26,11 @@ description: Validate and improve documentation files
 - Identify: core, supporting, temporary
 - Check relationships to knowledge files
 
-
 ### :compass: Validate Content
 
 - Core docs: architecture, workflows, guidelines
 - Supporting docs: reference, examples
 - Temporary: status reports (should delete)
-
 
 ### :compass: Check Quality
 
@@ -39,7 +38,6 @@ description: Validate and improve documentation files
 - Focused on development guidance
 - References knowledge files correctly
 - No duplication of knowledge content
-
 
 ## :world_map: Organization
 
@@ -49,7 +47,6 @@ description: Validate and improve documentation files
 - Consolidate duplicates
 - Fix broken references
 - Update knowledge cross-references
-
 
 ## :world_map: Output
 

@@ -8,6 +8,7 @@ description: Break down and execute work-related tasks
 ## :book: Table of Contents
 
 - [:file\_folder: Work](#file_folder-work)
+  - [:book: Table of Contents](#book-table-of-contents)
   - [:world\_map: Task Execution](#world_map-task-execution)
     - [:compass: Understand Requirements](#compass-understand-requirements)
     - [:compass: Break Down Tasks](#compass-break-down-tasks)
@@ -21,13 +22,11 @@ description: Break down and execute work-related tasks
 - Identify constraints and dependencies
 - Define success criteria
 
-
 ### :compass: Break Down Tasks
 
 - Divide into smaller actionable steps
 - Create logical sequence
 - Identify parallel opportunities
-
 
 ### :compass: Execute
 

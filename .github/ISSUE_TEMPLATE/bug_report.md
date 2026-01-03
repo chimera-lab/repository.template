@@ -1,27 +1,15 @@
-# :file: Bug Report
+# :file: Bug Report Template
 
 ## :book: Table of Contents
 
-- [:file: Bug Report](#file-bug-report)
+- [:file: Bug Report Template](#file-bug-report-template)
   - [:book: Table of Contents](#book-table-of-contents)
-  - [assignees: ''](#assignees-)
   - [:loudspeaker: Introduction](#loudspeaker-introduction)
   - [:clipboard: Requirements](#clipboard-requirements)
   - [:building\_construction: Structure](#building_construction-structure)
   - [:page\_facing\_up: Files](#page_facing_up-files)
   - [:warning: Warnings](#warning-warnings)
   - [:link: See also](#link-see-also)
-
----
-name: Bug report (Markdown)
-about: File a bug using the markdown fallback template
-title: "[Bug]: <short summary>"
-labels:
-
-- type:bug
-
-assignees: ''
----
 
 ## :loudspeaker: Introduction
 

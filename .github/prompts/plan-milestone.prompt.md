@@ -9,6 +9,7 @@ description: Plan and structure a milestone with MVP and tasks
 ## :book: Table of Contents
 
 - [:file\_folder: Plan Milestone](#file_folder-plan-milestone)
+  - [:book: Table of Contents](#book-table-of-contents)
   - [:world\_map: MVP Definition](#world_map-mvp-definition)
     - [:compass: Define Scope](#compass-define-scope)
     - [:compass: MVP Requirements](#compass-mvp-requirements)
@@ -29,13 +30,11 @@ description: Plan and structure a milestone with MVP and tasks
 - Category: feature, bugfix, docs, etc.
 - Breaking changes? Yes/No
 
-
 ### :compass: MVP Requirements
 
 - Must have: critical features
 - Success criteria: measurable metrics
 - Out of scope: future items
-
 
 ## :world_map: Issue Prioritization
 
@@ -45,13 +44,11 @@ description: Plan and structure a milestone with MVP and tasks
 - Complexity: S (1-2h), M (3-8h), L (1-3d), XL (>3d)
 - Priority: P0 (blocks), P1 (core), P2 (nice), P3 (future)
 
-
 ### :compass: Order Dependencies
 
 - Foundation first
 - Identify blockers
 - Parallel work opportunities
-
 
 ## :world_map: Decomposition
 
@@ -60,7 +57,6 @@ description: Plan and structure a milestone with MVP and tasks
 - L/XL issues into M/S sub-tasks
 - Each with clear agent and complexity
 - Document dependencies between sub-tasks
-
 
 ## :world_map: Communication
 
