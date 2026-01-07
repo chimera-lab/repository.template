@@ -1,6 +1,393 @@
 {
-  "name": "repository.template",
-  "description": "Repository repository.template",
-  "tags": [],
-  "authors": []
+  "repo": {
+    "name": "repository.template",
+    "template": null,
+    "type": "template",
+    "issues": {
+      "org": [],
+      "repo": [
+        {
+          "id": 1,
+          "title": "Refactor repository.template",
+          "milestone": null,
+          "estimate_hours": null,
+          "labels": [],
+          "assignees": [],
+          "body": null,
+          "state": "open",
+          "is_created": false,
+          "github_id": null,
+          "modified": false
+        },
+        {
+          "id": 2,
+          "title": "[refactor] app.template",
+          "milestone": null,
+          "estimate_hours": null,
+          "labels": [],
+          "assignees": [],
+          "body": null,
+          "state": "open",
+          "is_created": false,
+          "github_id": null,
+          "modified": false
+        },
+        {
+          "id": 3,
+          "title": "[refactor] laravel_app.template",
+          "milestone": null,
+          "estimate_hours": null,
+          "labels": [],
+          "assignees": [],
+          "body": null,
+          "state": "open",
+          "is_created": false,
+          "github_id": null,
+          "modified": false
+        },
+        {
+          "id": 4,
+          "title": "[refactor] scaffold.template",
+          "milestone": null,
+          "estimate_hours": null,
+          "labels": [],
+          "assignees": [],
+          "body": null,
+          "state": "open",
+          "is_created": false,
+          "github_id": null,
+          "modified": false
+        },
+        {
+          "id": 5,
+          "title": "[refactor] topic.template",
+          "milestone": null,
+          "estimate_hours": null,
+          "labels": [],
+          "assignees": [],
+          "body": null,
+          "state": "open",
+          "is_created": false,
+          "github_id": null,
+          "modified": false
+        },
+        {
+          "id": 6,
+          "title": "[refactor] docker_scaffold.template",
+          "milestone": null,
+          "estimate_hours": null,
+          "labels": [],
+          "assignees": [],
+          "body": null,
+          "state": "open",
+          "is_created": false,
+          "github_id": null,
+          "modified": false
+        },
+        {
+          "id": 7,
+          "title": "[refactor] project.template",
+          "milestone": null,
+          "estimate_hours": null,
+          "labels": [],
+          "assignees": [],
+          "body": null,
+          "state": "open",
+          "is_created": false,
+          "github_id": null,
+          "modified": false
+        },
+        {
+          "local_id": 8,
+          "github_id": 1,
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:42:41.250635+00:00",
+            "updated_at": "2026-01-07T00:42:41.250635+00:00",
+            "synced_at": "2026-01-07T00:42:41.250635+00:00",
+            "github_updated_at": null
+          },
+          "title": "Icons missing from template",
+          "body": "",
+          "milestone": null,
+          "labels": [
+            "documentation"
+          ],
+          "assignees": [],
+          "state": "closed",
+          "estimate_hours": null
+        }
+      ]
+    },
+    "labels": {
+      "org": [
+        "default"
+      ],
+      "repo": [
+        {
+          "local_id": 1,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8DQ",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.796760+00:00",
+            "updated_at": "2026-01-07T00:18:21.796760+00:00",
+            "synced_at": "2026-01-07T00:18:21.796760+00:00",
+            "github_updated_at": null
+          },
+          "name": "bug",
+          "color": "d73a4a",
+          "description": "Something isn't working"
+        },
+        {
+          "local_id": 2,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8EQ",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.797060+00:00",
+            "updated_at": "2026-01-07T00:18:21.797060+00:00",
+            "synced_at": "2026-01-07T00:18:21.797060+00:00",
+            "github_updated_at": null
+          },
+          "name": "documentation",
+          "color": "0366d6",
+          "description": "Improvements or additions to documentation"
+        },
+        {
+          "local_id": 3,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8Ew",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.797285+00:00",
+            "updated_at": "2026-01-07T00:18:21.797285+00:00",
+            "synced_at": "2026-01-07T00:18:21.797285+00:00",
+            "github_updated_at": null
+          },
+          "name": "duplicate",
+          "color": "7e7e7e",
+          "description": "This issue or pull request already exists"
+        },
+        {
+          "local_id": 4,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8FQ",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.797416+00:00",
+            "updated_at": "2026-01-07T00:18:21.797416+00:00",
+            "synced_at": "2026-01-07T00:18:21.797416+00:00",
+            "github_updated_at": null
+          },
+          "name": "enhancement",
+          "color": "22863a",
+          "description": "New feature or request"
+        },
+        {
+          "local_id": 5,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8GA",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.797528+00:00",
+            "updated_at": "2026-01-07T00:18:21.797528+00:00",
+            "synced_at": "2026-01-07T00:18:21.797528+00:00",
+            "github_updated_at": null
+          },
+          "name": "good first issue",
+          "color": "7057ff",
+          "description": "Good for newcomers"
+        },
+        {
+          "local_id": 6,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8Gg",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.797621+00:00",
+            "updated_at": "2026-01-07T00:18:21.797621+00:00",
+            "synced_at": "2026-01-07T00:18:21.797621+00:00",
+            "github_updated_at": null
+          },
+          "name": "help wanted",
+          "color": "ff7f50",
+          "description": "Extra attention is needed"
+        },
+        {
+          "local_id": 7,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8HQ",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.797704+00:00",
+            "updated_at": "2026-01-07T00:18:21.797704+00:00",
+            "synced_at": "2026-01-07T00:18:21.797704+00:00",
+            "github_updated_at": null
+          },
+          "name": "invalid",
+          "color": "e4e669",
+          "description": "This doesn't seem right"
+        },
+        {
+          "local_id": 8,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8IA",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.797836+00:00",
+            "updated_at": "2026-01-07T00:18:21.797836+00:00",
+            "synced_at": "2026-01-07T00:18:21.797836+00:00",
+            "github_updated_at": null
+          },
+          "name": "question",
+          "color": "ff69b4",
+          "description": "Further information is requested"
+        },
+        {
+          "local_id": 9,
+          "github_id": "LA_kwDOJ9FCV88AAAABVrj8Ig",
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:18:21.797921+00:00",
+            "updated_at": "2026-01-07T00:18:21.797921+00:00",
+            "synced_at": "2026-01-07T00:18:21.797921+00:00",
+            "github_updated_at": null
+          },
+          "name": "wontfix",
+          "color": "4b0000",
+          "description": "This will not be worked on"
+        }
+      ]
+    },
+    "milestones": {
+      "org": [
+        "default"
+      ],
+      "repo": [
+        {
+          "local_id": 1,
+          "github_id": 1,
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:31:26.966398+00:00",
+            "updated_at": "2026-01-07T00:31:26.966398+00:00",
+            "synced_at": "2026-01-07T00:31:26.966398+00:00",
+            "github_updated_at": null
+          },
+          "title": "1 - Ideating",
+          "description": "Generate ideas - Is there a clear problem and a viable solution idea?",
+          "due_on": null,
+          "state": "open",
+          "open_issues": 0,
+          "closed_issues": 0
+        },
+        {
+          "local_id": 2,
+          "github_id": 2,
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:31:26.966545+00:00",
+            "updated_at": "2026-01-07T00:31:26.966545+00:00",
+            "synced_at": "2026-01-07T00:31:26.966545+00:00",
+            "github_updated_at": null
+          },
+          "title": "2 - Planning",
+          "description": "Define direction - Is there a basic roadmap with tasks and time estimates?",
+          "due_on": null,
+          "state": "open",
+          "open_issues": 0,
+          "closed_issues": 0
+        },
+        {
+          "local_id": 3,
+          "github_id": 3,
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:31:26.966643+00:00",
+            "updated_at": "2026-01-07T00:31:26.966643+00:00",
+            "synced_at": "2026-01-07T00:31:26.966643+00:00",
+            "github_updated_at": null
+          },
+          "title": "3 - Building",
+          "description": "Create MVP - Are the main features working without critical crashes?",
+          "due_on": null,
+          "state": "open",
+          "open_issues": 0,
+          "closed_issues": 0
+        },
+        {
+          "local_id": 4,
+          "github_id": 4,
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:31:26.966718+00:00",
+            "updated_at": "2026-01-07T00:31:26.966718+00:00",
+            "synced_at": "2026-01-07T00:31:26.966718+00:00",
+            "github_updated_at": null
+          },
+          "title": "4 - Presenting",
+          "description": "Make it usable - Can someone use or demo the basic interface with guidance?",
+          "due_on": null,
+          "state": "open",
+          "open_issues": 0,
+          "closed_issues": 0
+        },
+        {
+          "local_id": 5,
+          "github_id": 5,
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:31:26.966780+00:00",
+            "updated_at": "2026-01-07T00:31:26.966780+00:00",
+            "synced_at": "2026-01-07T00:31:26.966780+00:00",
+            "github_updated_at": null
+          },
+          "title": "5 - Sharing",
+          "description": "Show to the world - Is it published with clear info and a way to get feedback?",
+          "due_on": null,
+          "state": "open",
+          "open_issues": 0,
+          "closed_issues": 0
+        },
+        {
+          "local_id": 6,
+          "github_id": 6,
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:31:26.966835+00:00",
+            "updated_at": "2026-01-07T00:31:26.966835+00:00",
+            "synced_at": "2026-01-07T00:31:26.966835+00:00",
+            "github_updated_at": null
+          },
+          "title": "6 - Polishing",
+          "description": "Refine - Is the code clean, modular, and the infra/configs stable?",
+          "due_on": null,
+          "state": "open",
+          "open_issues": 0,
+          "closed_issues": 0
+        },
+        {
+          "local_id": 7,
+          "github_id": 7,
+          "status": "synced",
+          "sync": {
+            "created_at": "2026-01-07T00:31:26.966887+00:00",
+            "updated_at": "2026-01-07T00:31:26.966887+00:00",
+            "synced_at": "2026-01-07T00:31:26.966887+00:00",
+            "github_updated_at": null
+          },
+          "title": "7 - Releasing",
+          "description": "Launch as product - Is it ready for public use with support and monetization?",
+          "due_on": null,
+          "state": "open",
+          "open_issues": 0,
+          "closed_issues": 0
+        }
+      ]
+    }
+  },
+  "org": {
+    "name": "chimera-lab"
+  },
+  "validation": {
+    "headers": {},
+    "links": {},
+    "toc": {},
+    "markdown": {},
+    "template_files": {},
+    "submodules": {}
+  }
 }
