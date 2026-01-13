@@ -16,11 +16,12 @@ This template provides baseline docs and configuration scaffolds (README, CONTRI
 
 ## :books: References
 
-- CODE_OF_CONDUCT: see [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
-- CONTRIBUTING: see [CONTRIBUTING.md](CONTRIBUTING.md).
-- SECURITY: see [SECURITY.md](SECURITY.md) if present in the repository root.
-- Templates overview: consult organization docs for naming and stage guidelines.
+- [:page_facing_up: CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [:page_facing_up: CONTRIBUTING.md](CONTRIBUTING.md)
+- [:page_facing_up: SECURITY.md](SECURITY.md)
+- [:page_facing_up: ./docs/STRUCTURE.md](./docs/STRUCTURE.md) - Project Structure
+- [:page_facing_up: ./docs/knowledge/organization.knowledge.md](./docs/knowledge/organization.knowledge.md) - Managing entity
 
 ## :scroll: License
 
-- Licensed under the terms specified in [LICENSE](LICENSE). Review before distributing or reusing this template.
+- Licensed under the terms specified in [:link: LICENSE](LICENSE). Review before distributing or reusing this template.

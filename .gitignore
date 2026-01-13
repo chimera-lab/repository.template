@@ -1,27 +1,26 @@
-# OS Files
-.DS_Store
-Thumbs.db
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Logs
+# Logs and databases
 *.log
-logs/
+*.sql
+*.sqlite
 
 # Temporary files
 *.tmp
 *.temp
 .cache/
-
-# Environment
-.env
-.env.local
+temp/
 
 # Backup files
+*.old
 *.bak
 *.backup
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

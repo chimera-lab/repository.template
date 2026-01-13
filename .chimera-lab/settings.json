@@ -1,1 +1,29 @@
-{}
+{
+  "patterns": {
+    "doc_patterns": [
+      "*.md",
+      "docs/**/*.md",
+      "CHANGELOG.md",
+      "README.md",
+      "LICENSE",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "SECURITY.md"
+    ],
+    "github_patterns": [
+      ".github/**/*"
+    ],
+    "agent_patterns": [
+      ".github/agents/*.agent.md"
+    ],
+    "prompt_patterns": [
+      ".github/prompts/*.prompt.md"
+    ],
+    "knowledge_patterns": [
+      "docs/knowledge/*.knowledge.md"
+    ],
+    "docs_default_pattern": "**/*.md"
+  },
+  "skip_files": [],
+  "custom_variables": {}
+}
