@@ -25,5 +25,16 @@
     "docs_default_pattern": "**/*.md"
   },
   "skip_files": [],
-  "custom_variables": {}
+  "custom_variables": {},
+  "validation": {
+    "enabled_validators": [],
+    "disabled_validators": [],
+    "headers": {
+      "enforce_typed_headers": true,
+      "require_emoji_prefix": true,
+      "allow_custom_headers": false,
+      "custom_headers_patterns": [],
+      "ignored_files": []
+    }
+  }
 }
