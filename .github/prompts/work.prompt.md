@@ -7,14 +7,14 @@ description: Break down and execute work-related tasks
 
 ## :book: Table of Contents
 
-- [:file\_folder: Work](#file_folder-work)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:world\_map: Task Execution](#world_map-task-execution)
-    - [:compass: Understand Requirements](#compass-understand-requirements)
-    - [:compass: Break Down Tasks](#compass-break-down-tasks)
-    - [:compass: Execute](#compass-execute)
+- [:file\_folder: Work](./#file_folder-work)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:world\_map: Guides](./#world_map-guides)
+    - [:compass: Understand Requirements](./#compass-understand-requirements)
+    - [:compass: Break Down Tasks](./#compass-break-down-tasks)
+    - [:compass: Execute](./#compass-execute)
 
-## :world_map: Task Execution
+## :world_map: Guides
 
 ### :compass: Understand Requirements
 

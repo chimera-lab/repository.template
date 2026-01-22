@@ -7,22 +7,19 @@ description: General confirmation to continue execution
 
 ## :book: Table of Contents
 
-- [:file\_folder: Go](#file_folder-go)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:world\_map: Confirm and Continue](#world_map-confirm-and-continue)
-    - [:compass: Validate Understanding](#compass-validate-understanding)
-    - [:compass: Proceed](#compass-proceed)
+- [:file\_folder: Go](./#file_folder-go)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:world\_map: Guides](./#world_map-guides)
+    - [:compass: Confirm and Continue](./#compass-confirm-and-continue)
 
-## :world_map: Confirm and Continue
+## :world_map: Guides
 
-### :compass: Validate Understanding
+### :compass: Confirm and Continue
 
-- Confirm requirements understood
-- Check all information available
-- Identify blockers
+This is a default confirmation prompt, continue with the first option that fits the request.
 
-### :compass: Proceed
-
-- Execute next steps
-- Use appropriate agents
-- Report progress
+- Recommended
+- Continue
+- Yes
+- A
+- 1

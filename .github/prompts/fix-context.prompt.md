@@ -8,50 +8,58 @@ description: Validate and improve agents, prompts, and knowledge files
 
 ## :book: Table of Contents
 
-- [:file\_folder: Fix Context](#file_folder-fix-context)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:world\_map: Information Gathering](#world_map-information-gathering)
-    - [:compass: Discover Files](#compass-discover-files)
-  - [:world\_map: Validation](#world_map-validation)
-    - [:compass: Check Names](#compass-check-names)
-    - [:compass: Check Content](#compass-check-content)
-    - [:compass: Check References](#compass-check-references)
-  - [:world\_map: Improvements](#world_map-improvements)
-    - [:compass: Provide Feedback](#compass-provide-feedback)
+- [:file\_folder: Fix Context](./#file_folder-fix-context)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:world\_map: Guides](./#world_map-guides)
+    - [:compass: Information Gathering](./#compass-information-gathering)
+      - [:compass: Discover Files](./#compass-discover-files)
+    - [:compass: Validation](./#compass-validation)
+      - [:compass: Check Names](./#compass-check-names)
+      - [:compass: Check Content](./#compass-check-content)
+      - [:compass: Check References](./#compass-check-references)
+    - [:compass: Check Quality](./#compass-check-quality)
+    - [:compass: Output](./#compass-output)
 
-## :world_map: Information Gathering
+## :world_map: Guides
 
-### :compass: Discover Files
+### :compass: Information Gathering
 
-- List: `.github/agents/` - all `.agent.md` files
-- List: `.github/prompts/` - all `.prompt.md` files
-- List: `.github/knowledge/` - all `.md` files
+#### :compass: Discover Files
+
+- List agents with `cmr docs {agents|prompts|knowledge} list`
 - Document purposes and relationships
 
-## :world_map: Validation
+### :compass: Validation
 
-### :compass: Check Names
+#### :compass: Check Names
 
 - Agents: `lowercase-with-hyphens.agent.md`
 - Prompts: `lowercase-with-hyphens.prompt.md`
 - Knowledge: `lowercase-with-hyphens.knowledge.md`
 
-### :compass: Check Content
+#### :compass: Check Content
 
-- Agents: Have role, goal, limitations, instructions
-- Prompts: Have agent field, description, clear purpose
-- Knowledge: Self-contained, no file references
+- Automated content check with `cmr docs validate`
 
-### :compass: Check References
+#### :compass: Check References
 
 - Agents: Reference only knowledge files
 - Prompts: Reference only knowledge files
+- Knowledge: Reference knowledge and docs files
 - No agent-to-agent or prompt-to-prompt references
 
-## :world_map: Improvements
+### :compass: Check Quality
 
-### :compass: Provide Feedback
+- Clear structure and headers
+- Focused on development guidance
+- References knowledge files correctly
+- No duplication of knowledge content between docs and knowledge files
+- Apply automated fixes with `cmr docs fix`
+- Validate again with `cmr docs validate`
 
-- List issues found
-- Suggest fixes
-- Maintain separation of concerns
+### :compass: Output
+
+- List of changes made
+- Deleted files
+- Improved documentation
+- Reference updates

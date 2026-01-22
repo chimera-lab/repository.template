@@ -8,60 +8,52 @@ description: Plan and structure a milestone with MVP and tasks
 
 ## :book: Table of Contents
 
-- [:file\_folder: Plan Milestone](#file_folder-plan-milestone)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:world\_map: MVP Definition](#world_map-mvp-definition)
-    - [:compass: Define Scope](#compass-define-scope)
-    - [:compass: MVP Requirements](#compass-mvp-requirements)
-  - [:world\_map: Issue Prioritization](#world_map-issue-prioritization)
-    - [:compass: Identify Issues](#compass-identify-issues)
-    - [:compass: Order Dependencies](#compass-order-dependencies)
-  - [:world\_map: Decomposition](#world_map-decomposition)
-    - [:compass: Break Down Large Issues](#compass-break-down-large-issues)
-  - [:world\_map: Communication](#world_map-communication)
-    - [:compass: Plan Communication](#compass-plan-communication)
+- [:file\_folder: Plan Milestone](./#file_folder-plan-milestone)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:world\_map: Guides](./#world_map-guides)
+    - [:compass: MVP Definition](./#compass-mvp-definition)
+      - [:compass: Define Scope](./#compass-define-scope)
+      - [:compass: MVP Requirements](./#compass-mvp-requirements)
+    - [:compass: Issue Prioritization](./#compass-issue-prioritization)
+      - [:compass: Identify Issues](./#compass-identify-issues)
+      - [:compass: Order Dependencies](./#compass-order-dependencies)
+    - [:compass: Decomposition](./#compass-decomposition)
+    - [:compass: Output](./#compass-output)
 
-## :world_map: MVP Definition
+## :world_map: Guides
 
-### :compass: Define Scope
+### :compass: MVP Definition
+
+#### :compass: Define Scope
 
 - Milestone name and goal
 - Target completion date
 - Category: feature, bugfix, docs, etc.
-- Breaking changes? Yes/No
 
-### :compass: MVP Requirements
+#### :compass: MVP Requirements
 
 - Must have: critical features
 - Success criteria: measurable metrics
 - Out of scope: future items
 
-## :world_map: Issue Prioritization
+### :compass: Issue Prioritization
 
-### :compass: Identify Issues
+#### :compass: Identify Issues
 
-- Type: feature, bug, enhancement, docs, chore
-- Complexity: S (1-2h), M (3-8h), L (1-3d), XL (>3d)
-- Priority: P0 (blocks), P1 (core), P2 (nice), P3 (future)
+- Use `cmr repo [issues|milestones|labels] list` to gather information
 
-### :compass: Order Dependencies
+#### :compass: Order Dependencies
 
 - Foundation first
 - Identify blockers
 - Parallel work opportunities
 
-## :world_map: Decomposition
+### :compass: Decomposition
 
-### :compass: Break Down Large Issues
-
-- L/XL issues into M/S sub-tasks
-- Each with clear agent and complexity
+- Break Down Large Issues
 - Document dependencies between sub-tasks
 
-## :world_map: Communication
-
-### :compass: Plan Communication
+### :compass: Output
 
 - CHANGELOG: Added, Changed, Fixed
-- Migration guide if breaking changes
 - Timeline and success metrics
