@@ -4,11 +4,11 @@ Repository template providing the standard structure, docs, and contribution wor
 
 ## :book: Table of Contents
 
-- [:file\_folder: {{repository.name}}](#file_folder-repositoryname)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:telescope: Overview](#telescope-overview)
-  - [:books: References](#books-references)
-  - [:scroll: License](#scroll-license)
+- [:file\_folder: {{repository.name}}](./#file_folder-repositoryname)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:telescope: Overview](./#telescope-overview)
+  - [:books: References](./#books-references)
+  - [:scroll: License](./#scroll-license)
 
 ## :telescope: Overview
 
@@ -20,7 +20,7 @@ This template provides baseline docs and configuration scaffolds (README, CONTRI
 - [:page_facing_up: CONTRIBUTING.md](CONTRIBUTING.md)
 - [:page_facing_up: SECURITY.md](SECURITY.md)
 - [:page_facing_up: ./docs/STRUCTURE.md](./docs/STRUCTURE.md) - Project Structure
-- [:page_facing_up: ./docs/knowledge/organization.knowledge.md](./docs/knowledge/organization.knowledge.md) - Managing entity
+- [:page_facing_up: ./docs/ORGANIZATION.md](./docs/ORGANIZATION.md) - Managing entity
 
 ## :scroll: License
 

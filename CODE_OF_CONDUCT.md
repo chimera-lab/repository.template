@@ -4,20 +4,20 @@ This Code of Conduct sets clear expectations for respectful, inclusive collabora
 
 ## :book: Table of Contents
 
-- [:file\_folder: Code of Conduct](#file_folder-code-of-conduct)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:telescope: Overview](#telescope-overview)
-  - [:book: Expected Behavior](#book-expected-behavior)
-  - [:warning: Warnings](#warning-warnings)
-  - [:building\_construction: Structure](#building_construction-structure)
-  - [:clipboard: Requirements](#clipboard-requirements)
-  - [:toolbox: Tools](#toolbox-tools)
+- [:file\_folder: Code of Conduct](./#file_folder-code-of-conduct)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:telescope: Overview](./#telescope-overview)
+  - [:clipboard: Requirements](./#clipboard-requirements)
+  - [:warning: Warnings](./#warning-warnings)
+  - [:building\_construction: Structure](./#building_construction-structure)
+  - [:keyboard: Usage](./#keyboard-usage)
+  - [:toolbox: Tools](./#toolbox-tools)
 
 ## :telescope: Overview
 
 We commit to a safe, inclusive, and professional environment. These guidelines apply to all community spaces and interactions related to this project.
 
-## :book: Expected Behavior
+## :clipboard: Requirements
 
 - Use welcoming language, be considerate of differing backgrounds, and assume good intent.
 - Offer constructive feedback focused on ideas, not individuals.
@@ -31,10 +31,10 @@ We commit to a safe, inclusive, and professional environment. These guidelines a
 
 - Applies to code, issues, discussions, reviews, chat channels, and community events (online or in person).
 
-## :clipboard: Requirements
+## :keyboard: Usage
 
 - Report incidents with factual details (what, when, where, links, participants) and any evidence.
-- Respect confidentiality; only share with designated maintainers or contacts.
+- Respect confidentiality, only share with designated maintainers or contacts.
 - Primary contact for conduct concerns: [:link: {{org.contacts.email.security}}](mailto:%7B%7Borg.contacts.email.security%7D%7D). Use this channel for private escalation.
 
 ## :toolbox: Tools

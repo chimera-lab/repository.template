@@ -2,19 +2,19 @@
 
 ## :book: Table of Contents
 
-- [:file\_folder: Roadmap](#file_folder-roadmap)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:telescope: Overview](#telescope-overview)
-  - [:memo: To-do list](#memo-to-do-list)
-    - [:memo: Version 0.0.1](#memo-version-001)
-  - [:books: References](#books-references)
-  - [:notebook: Notes](#notebook-notes)
+- [:file\_folder: Roadmap](./#file_folder-roadmap)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:telescope: Overview](./#telescope-overview)
+  - [:memo: To-Do List](./#memo-to-do-list)
+    - [:memo: Version 0.0.1](./#memo-version-001)
+  - [:books: References](./#books-references)
+  - [:notebook: Notes](./#notebook-notes)
 
 ## :telescope: Overview
 
 This document outlines the planned features, improvements, and milestones for this repository.
 
-## :memo: To-do list
+## :memo: To-Do List
 
 ### :memo: Version 0.0.1
 
