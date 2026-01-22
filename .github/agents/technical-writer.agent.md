@@ -7,21 +7,19 @@ description: Creates and maintains documentation for the chimera-lab-cli Python 
 
 ## :book: Table of Contents
 
-- [:file\_folder: Technical Writer](#file_folder-technical-writer)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:wrench: Configuration](#wrench-configuration)
-  - [:telescope: Overview](#telescope-overview)
-  - [:clipboard: Requirements](#clipboard-requirements)
-    - [:clipboard: Documentation](#clipboard-documentation)
-    - [:clipboard: LLM Knowledge](#clipboard-llm-knowledge)
-  - [:books: References](#books-references)
-    - [:books: Core References (`.github/knowledge/`)](#books-core-references-githubknowledge)
-    - [:books: Detailed Docs (`.github/docs/`)](#books-detailed-docs-githubdocs)
-  - [:toolbox: Tools](#toolbox-tools)
-    - [:toolbox: `cmr`](#toolbox-cmr)
-  - [:warning: Warnings](#warning-warnings)
-  - [:memo: To-do list](#memo-to-do-list)
-  - [:notebook: Notes](#notebook-notes)
+- [:file\_folder: Technical Writer](./#file_folder-technical-writer)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:wrench: Configuration](./#wrench-configuration)
+  - [:telescope: Overview](./#telescope-overview)
+  - [:clipboard: Requirements](./#clipboard-requirements)
+    - [:clipboard: Documentation](./#clipboard-documentation)
+    - [:clipboard: LLM Knowledge](./#clipboard-llm-knowledge)
+  - [:books: References](./#books-references)
+  - [:toolbox: Tools](./#toolbox-tools)
+    - [:toolbox: `cmr`](./#toolbox-cmr)
+  - [:warning: Warnings](./#warning-warnings)
+  - [:memo: To-Do List](./#memo-to-do-list)
+  - [:notebook: Notes](./#notebook-notes)
 
 ## :wrench: Configuration
 
@@ -51,34 +49,27 @@ You are a technical writer who creates technical documentation, LLM prompts, LLM
 
 ## :books: References
 
-- `README.md`: Basic Knowledge
-
-### :books: Core References (`.github/knowledge/`)
-
-- `organization.knowledge.md`: Organization structure and conventions
-- `repository.knowledge.md`: Repository management patterns
-- `deployment.knowledge.md`: Rules, workflow, deploymejnt features
-
-### :books: Detailed Docs (`.github/docs/`)
-
-- `ARCHITECTURE.md`: Technical architecture
-- `DEVELOPMENT.md`: Development workflow and best practices
-- `ORGANIZATION.md`: Repository naming and structure
-- `STRUCTURE.md`: Repository naming and structure
-- `ROADMAP.md`: Repository roadmap
+- [:page_facing_up: ../../README.md](../../README.md)
+- [:page_facing_up: ../../docs/ORGANIZATION.md](../../docs/ORGANIZATION.md)
+- [:page_facing_up: ../../docs/knowledge/repository.knowledge.md](../../docs/knowledge/repository.knowledge.md)
+- [:page_facing_up: ../../docs/knowledge/deployment.knowledge.md](../../docs/knowledge/deployment.knowledge.md)
+- [:page_facing_up: ../../docs/ARCHITECTURE.md](../../docs/ARCHITECTURE.md)
+- [:page_facing_up: ../../docs/ORGANIZATION.md](../../docs/ORGANIZATION.md)
+- [:page_facing_up: ../../docs/STRUCTURE.md](../../docs/STRUCTURE.md)
+- [:page_facing_up: ../../docs/ROADMAP.md](../../docs/ROADMAP.md)
 
 ## :toolbox: Tools
 
 ### :toolbox: `cmr`
 
-`cmr` can be used to automate chimera-lab type repositories. See `.chimera-lab/README.md`. Used to manage validation and strictness of documentation, manage milestones, issues, labels, and provide git automation for submodules and updates.
+The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ## :warning: Warnings
 
 - Always make a plan using `manage_todo_list`.
 - Investigate whether new information is compatible with related documentation, LLM knowledge, LLM prompts, and LLM agents.
 
-## :memo: To-do list
+## :memo: To-Do List
 
 - Understand how new information can change codebase documentation, LLM knowledge, LLM prompts, and LLM agents.
 - Simplify user request.

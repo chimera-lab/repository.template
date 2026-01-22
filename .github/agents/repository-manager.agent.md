@@ -7,22 +7,19 @@ description: Git and GitHub operations automation for chimera-lab-cli Python CLI
 
 ## :book: Table of Contents
 
-- [:file\_folder: Repository Manager](#file_folder-repository-manager)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:wrench: Configuration](#wrench-configuration)
-  - [:telescope: Overview](#telescope-overview)
-  - [:clipboard: Requirements](#clipboard-requirements)
-  - [:books: References](#books-references)
-  - [:books: Core References (`.github/knowledge/`)](#books-core-references-githubknowledge)
-  - [:books: Detailed Docs (`.github/docs/`)](#books-detailed-docs-githubdocs)
-  - [:toolbox: Tools](#toolbox-tools)
-    - [:toolbox: `gh` CLI](#toolbox-gh-cli)
-    - [:toolbox: `git`](#toolbox-git)
-    - [:toolbox: `cmr`](#toolbox-cmr)
-    - [:toolbox: Commit Standards](#toolbox-commit-standards)
-  - [:warning: Warnings](#warning-warnings)
-  - [:memo: To-do list](#memo-to-do-list)
-  - [:notebook: Notes](#notebook-notes)
+- [:file\_folder: Repository Manager](./#file_folder-repository-manager)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:wrench: Configuration](./#wrench-configuration)
+  - [:telescope: Overview](./#telescope-overview)
+  - [:clipboard: Requirements](./#clipboard-requirements)
+  - [:books: References](./#books-references)
+  - [:toolbox: Tools](./#toolbox-tools)
+    - [:toolbox: `gh` CLI](./#toolbox-gh-cli)
+    - [:toolbox: `git`](./#toolbox-git)
+    - [:toolbox: `cmr`](./#toolbox-cmr)
+  - [:warning: Warnings](./#warning-warnings)
+  - [:memo: To-Do List](./#memo-to-do-list)
+  - [:notebook: Notes](./#notebook-notes)
 
 ## :wrench: Configuration
 
@@ -59,20 +56,10 @@ You are an automation assistant for Git/GitHub operations within chimera-lab-cli
 
 ## :books: References
 
-- `CHANGELOG.md`: Version history
-- `.gitignore`: Ignored files configuration
-- `.github/knowledge/repository.knowledge.md`: Repository management patterns
-
-## :books: Core References (`.github/knowledge/`)
-
-- `system.knowledge.md`: CLI architecture, Git integration patterns
-- `repository.knowledge.md`: Repository structure, GitHub operations
-- `organization.knowledge.md`: Organization hierarchy and conventions
-
-## :books: Detailed Docs (`.github/docs/`)
-
-- `DEVELOPMENT.md`: Development workflow and Git practices
-- `CLI_GUIDELINES.md`: Commit conventions and standards
+- [:page_facing_up: ../../README.md](../../README.md)
+- [:page_facing_up: ../../CHANGELOG.md](../../CHANGELOG.md)
+- [:page_facing_up: ../../CONTRIBUTING.md](../../CONTRIBUTING.md)
+- [:page_facing_up: ../../docs/knowledge/cmr.knowledge.md](../../docs/knowledge/cmr.knowledge.md)
 
 ## :toolbox: Tools
 
@@ -82,15 +69,11 @@ GitHub CLI for issue management, PR operations, and releases.
 
 ### :toolbox: `git`
 
-Version control operations.
+Version control operations. Use Conventional Commits format.
 
 ### :toolbox: `cmr`
 
-Custom CLI tool for chimera-lab repositories. See `.chimera-lab/README.md`. Used for repository automation, submodule management, and workflow enforcement.
-
-### :toolbox: Commit Standards
-
-Use Conventional Commits format
+The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ## :warning: Warnings
 
@@ -101,7 +84,7 @@ Use Conventional Commits format
 - Follow branch naming conventions strictly
 - Use conventional commits format always
 
-## :memo: To-do list
+## :memo: To-Do List
 
 - Discover repository context (repo info, status, version)
 - Create branches following naming conventions

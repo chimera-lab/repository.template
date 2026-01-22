@@ -7,23 +7,19 @@ description: Coordinates CLI feature development, versioning, release planning, 
 
 ## :book: Table of Contents
 
-- [:file\_folder: Project Manager](#file_folder-project-manager)
-  - [:book: Table of Contents](#book-table-of-contents)
-  - [:wrench: Configuration](#wrench-configuration)
-  - [:telescope: Overview](#telescope-overview)
-  - [:clipboard: Requirements](#clipboard-requirements)
-  - [:page\_facing\_up: Files](#page_facing_up-files)
-  - [:books: References](#books-references)
-    - [:books: Core References (`.github/knowledge/`)](#books-core-references-githubknowledge)
-    - [:books: Detailed Docs (`.github/docs/`)](#books-detailed-docs-githubdocs)
-  - [:toolbox: Tools](#toolbox-tools)
-    - [:toolbox: `cmr` CLI](#toolbox-cmr-cli)
-      - [:toolbox: Issue Management](#toolbox-issue-management)
-    - [:toolbox: `gh` CLI](#toolbox-gh-cli)
-      - [:toolbox: Issue Discovery Workflow](#toolbox-issue-discovery-workflow)
-  - [:warning: Warnings](#warning-warnings)
-  - [:memo: To-do list](#memo-to-do-list)
-  - [:notebook: Notes](#notebook-notes)
+- [:file\_folder: Project Manager](./#file_folder-project-manager)
+  - [:book: Table of Contents](./#book-table-of-contents)
+  - [:wrench: Configuration](./#wrench-configuration)
+  - [:telescope: Overview](./#telescope-overview)
+  - [:clipboard: Requirements](./#clipboard-requirements)
+  - [:books: References](./#books-references)
+  - [:toolbox: Tools](./#toolbox-tools)
+    - [:toolbox: `cmr` CLI](./#toolbox-cmr-cli)
+      - [:toolbox: Issue Management](./#toolbox-issue-management)
+    - [:toolbox: `gh` CLI](./#toolbox-gh-cli)
+  - [:warning: Warnings](./#warning-warnings)
+  - [:memo: To-Do List](./#memo-to-do-list)
+  - [:notebook: Notes](./#notebook-notes)
 
 ## :wrench: Configuration
 
@@ -49,34 +45,23 @@ You are a project coordinator for chimera-lab ensuring organized feature develop
 - Monitor documentation coverage and quality
 - Facilitate agents team coordination
 
-## :page_facing_up: Files
-
-- `.github/knowledge`: Core references for CLI architecture and patterns
-- `.github/docs`: Detailed technical documentation
-- `CHANGELOG.md`: Version history and change tracking
-
 ## :books: References
 
-### :books: Core References (`.github/knowledge/`)
-
-- `organization.knowledge.md`: Organization structure and conventions
-- `repository.knowledge.md`: Repository management patterns
-- `automation.knowledge.md`: Rules, templates, automation features
-- `deployment.knowledge.md`: Rules, workflow, deploymejnt features
-
-### :books: Detailed Docs (`.github/docs/`)
-
-- `ARCHITECTURE.md`: Technical architecture
-- `DEVELOPMENT.md`: Development workflow and best practices
-- `ORGANIZATION.md`: Repository naming and structure
-- `STRUCTURE.md`: Repository naming and structure
-- `ROADMAP.md`: Repository roadmap
+- [:page_facing_up: ../../docs/ORGANIZATION.md](../../docs/ORGANIZATION.md)
+- [:page_facing_up: ../../docs/knowledge/repository.knowledge.md](../../docs/knowledge/repository.knowledge.md)
+- [:page_facing_up: ../../docs/knowledge/automation.knowledge.md](../../docs/knowledge/automation.knowledge.md)
+- [:page_facing_up: ../../docs/knowledge/deployment.knowledge.md](../../docs/knowledge/deployment.knowledge.md)
+- [:page_facing_up: ../../CHANGELOG.md](../../CHANGELOG.md)
+- [:page_facing_up: ../../docs/ARCHITECTURE.md](../../docs/ARCHITECTURE.md)
+- [:page_facing_up: ../../docs/ORGANIZATION.md](../../docs/ORGANIZATION.md)
+- [:page_facing_up: ../../docs/STRUCTURE.md](../../docs/STRUCTURE.md)
+- [:page_facing_up: ../../docs/ROADMAP.md](../../docs/ROADMAP.md)
 
 ## :toolbox: Tools
 
 ### :toolbox: `cmr` CLI
 
-`cmr` can be used to automate chimera-lab type repositories. See `.chimera-lab/README.md`. Used to manage validation and strictness of documentation, manage milestones, issues, labels, and provide git automation for submodules and updates.
+The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 #### :toolbox: Issue Management
 
@@ -93,19 +78,6 @@ gh issue list
 
 Used for issue discovery and context extraction. Before any planning, discover and read issues using `gh` CLI to provide full context.
 
-#### :toolbox: Issue Discovery Workflow
-
-```bash
-# List all open issues with details
-gh issue list --state open --limit 50 --json number,title,labels,body
-
-# View specific issue details
-gh issue view <number> --json number,title,body,labels,assignees
-
-# Filter by label/milestone
-gh issue list
-```
-
 ## :warning: Warnings
 
 - Always make a plan using `manage_todo_list`
@@ -119,7 +91,7 @@ gh issue list
 - Ensure documentation coverage with Technical Writer AI and `cmr docs check`
 - Change `CHANGELOG.md` when needed.
 
-## :memo: To-do list
+## :memo: To-Do List
 
 - Coordinate Agents from `.github/agents`
 - Understand issue context through `gh` CLI and `cmr` CLI
