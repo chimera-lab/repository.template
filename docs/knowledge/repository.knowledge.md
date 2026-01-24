@@ -10,13 +10,11 @@ description: Repository management patterns and workflows
 - [:file\_folder: Repository Management Knowledge](./#file_folder-repository-management-knowledge)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
-  - [:triangular\_ruler: Technologies](./#triangular_ruler-technologies)
-    - [:triangular\_ruler: Metadata Files](./#triangular_ruler-metadata-files)
-    - [:triangular\_ruler: Documentation Structure](./#triangular_ruler-documentation-structure)
   - [:world\_map: Guides](./#world_map-guides)
     - [:world\_map: Branching Strategy](./#world_map-branching-strategy)
-    - [:world\_map: Commit Convention](./#world_map-commit-convention)
+    - [:world\_map: Conventional Commits](./#world_map-conventional-commits)
   - [:toolbox: Tools](./#toolbox-tools)
+    - [:toolbox: `cmr`](./#toolbox-cmr)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview
@@ -46,7 +44,7 @@ refactor: code restructuring
 
 ## :toolbox: Tools
 
-## :toolbox: `cmr`
+### :toolbox: `cmr`
 
 The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 

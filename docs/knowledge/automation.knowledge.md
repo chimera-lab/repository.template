@@ -11,11 +11,8 @@ description: Automation rules and template application patterns
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:triangular\_ruler: Technologies](./#triangular_ruler-technologies)
-    - [:triangular\_ruler: Template Inheritance](./#triangular_ruler-template-inheritance)
-    - [:triangular\_ruler: Template Updates](./#triangular_ruler-template-updates)
+    - [:triangular\_ruler: `cmr`](./#triangular_ruler-cmr)
   - [:world\_map: Guides](./#world_map-guides)
-    - [:world\_map: Labels](./#world_map-labels)
-    - [:world\_map: Milestones](./#world_map-milestones)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview
@@ -34,4 +31,4 @@ The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation va
 
 - [:page_facing_up: ../../DEVELOPMENT.md](../../DEVELOPMENT.md)
 - [:page_facing_up: ../../README.md](../../README.md)
-- [:page_facing_up: knowledge/cmr.knowledge.md](knowledge/organization.knowledge.md)
+- [:page_facing_up: ../../ORGANIZATION.md](../ORGANIZATION.md)

@@ -109,5 +109,4 @@ The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation va
 
 - [:page_facing_up: STRUCTURE.md](STRUCTURE.md)
 - [:page_facing_up: ../../README.md](../../README.md)
-- [:page_facing_up: knowledge/organization.knowledge.md](knowledge/organization.knowledge.md)
-- [:page_facing_up: knowledge/cmr.knowledge.md](knowledge/organization.knowledge.md)
+- [:page_facing_up: knowledge/cmr.knowledge.md](knowledge/cmr.knowledge.md)
