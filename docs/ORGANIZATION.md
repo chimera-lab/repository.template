@@ -2,14 +2,14 @@
 
 ## :book: Table of Contents
 
-- [:file\_folder: Organization](./#file_folder-organization)
+- [:file_folder: Organization](./#file_folder-organization)
   - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
-  - [:building\_construction: Structure](./#building_construction-structure)
-    - [:building\_construction: Knowledge & Research](./#building_construction-knowledge-research)
-    - [:building\_construction: Implementation](./#building_construction-implementation)
-    - [:building\_construction: Templates & Tools](./#building_construction-templates-tools)
-    - [:building\_construction: Template Inheritance](./#building_construction-template-inheritance)
+  - [:building_construction: Structure](./#building_construction-structure)
+    - [:building_construction: Knowledge & Research](./#building_construction-knowledge-research)
+    - [:building_construction: Implementation](./#building_construction-implementation)
+    - [:building_construction: Templates & Tools](./#building_construction-templates-tools)
+    - [:building_construction: Template Inheritance](./#building_construction-template-inheritance)
   - [:toolbox: Tools](./#toolbox-tools)
     - [:toolbox: `cmr`](./#toolbox-cmr)
   - [:books: References](./#books-references)
