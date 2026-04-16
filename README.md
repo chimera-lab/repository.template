@@ -5,14 +5,28 @@ Repository template providing the standard structure, docs, and contribution wor
 ## :book: Table of Contents
 
 - [:file_folder: {{repository.name}}](./#file_folder-repositoryname)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
+  - [:clipboard: Requirements](./#clipboard-requirements)
+  - [:inbox_tray: Installation](./#inbox_tray-installation)
+  - [:keyboard: Usage](./#keyboard-usage)
   - [:books: References](./#books-references)
   - [:scroll: License](./#scroll-license)
 
 ## :telescope: Overview
 
-This template provides baseline docs and configuration scaffolds (README, CONTRIBUTING, CODE_OF_CONDUCT) so maintainers can spin up new repositories quickly and contributors can follow a consistent workflow. It covers documentation patterns, contribution guidance, and reference links for projects within {{org.name}}, while leaving application-specific code to each implementation.
+<!-- llm<Overview> -->
+
+## :clipboard: Requirements
+
+<!-- llm<Requirements> -->
+
+## :inbox_tray: Installation
+
+<!-- llm<Installation> -->
+
+## :keyboard: Usage
+
+<!-- llm<Usage> -->
 
 ## :books: References
 

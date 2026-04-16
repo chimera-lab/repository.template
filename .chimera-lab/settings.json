@@ -36,5 +36,13 @@
       "custom_headers_patterns": [],
       "ignored_files": []
     }
+  },
+  "llm": {
+    "headerPrompts": {
+      "Overview": "write a concise overview of this repository describing its purpose, scope, and role within the organization",
+      "Requirements": "list the prerequisites and requirements needed to use or develop this repository",
+      "Installation": "describe how to install or set up this repository for the first time",
+      "Usage": "describe the primary usage patterns and commands for this repository"
+    }
   }
 }

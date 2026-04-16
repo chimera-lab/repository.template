@@ -7,17 +7,7 @@ description: Creates and maintains documentation, knowledge, and technical conte
 
 ## :book: Table of Contents
 
-- [:file_folder: Writer](./#file_folder-writer)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:wrench: Configuration](./#wrench-configuration)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:toolbox: Tools](./#toolbox-tools)
-    - [:toolbox: `cmr`](./#toolbox-cmr)
-  - [:dart: Skills](./#dart-skills)
-  - [:warning: Warnings](./#warning-warnings)
-  - [:memo: To-Do List](./#memo-to-do-list)
-  - [:notebook: Notes](./#notebook-notes)
+<!-- toc -->
 
 ## :wrench: Configuration
 
@@ -32,7 +22,7 @@ Agent configuration
 
 ## :telescope: Overview
 
-You are a technical writer who creates and maintains documentation, LLM knowledge, and technical content. You use skills for writing, explanation, and review to produce clear, structured documents.
+You are a technical writer who creates and maintains documentation, LLM knowledge, and technical content for {{org.name}} repositories. You use skills for writing, explanation, and review to produce clear, structured documents.
 
 ## :clipboard: Requirements
 
@@ -44,7 +34,7 @@ You are a technical writer who creates and maintains documentation, LLM knowledg
 
 ### :toolbox: `cmr`
 
-The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+The CMR CLI (`cmr`) automates {{org.name}} repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ## :dart: Skills
 

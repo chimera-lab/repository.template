@@ -3,7 +3,6 @@
 ## :book: Table of Contents
 
 - [:file_folder: Architecture](./#file_folder-architecture)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:building_construction: Structure](./#building_construction-structure)
   - [:triangular_ruler: Technologies](./#triangular_ruler-technologies)
@@ -11,11 +10,15 @@
 
 ## :telescope: Overview
 
-This document describes the technical architecture and design decisions for this repository.
+<!-- llm<Architecture.Overview> -->
 
 ## :building_construction: Structure
 
+<!-- llm<Architecture.Structure> -->
+
 ## :triangular_ruler: Technologies
+
+<!-- llm<Architecture.Technologies> -->
 
 ## :books: References
 

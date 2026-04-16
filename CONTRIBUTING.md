@@ -1,11 +1,10 @@
 # :file_folder: Contributing
 
-This guide explains how to prepare your environment, configure the project, and contribute changes consistently.
+This guide explains how to prepare your environment, configure {{repository.name}}, and contribute changes consistently.
 
 ## :book: Table of Contents
 
 - [:file_folder: Contributing](./#file_folder-contributing)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:wrench: Configuration](./#wrench-configuration)
@@ -17,13 +16,13 @@ We keep contributions simple: satisfy prerequisites, configure the project, then
 
 ## :clipboard: Requirements
 
-- Git installed and able to authenticate with the repository.
+- Git installed and able to authenticate with the {{org.name}} repository.
 - Development environment that matches project language/runtime.
 - Access to required secrets or environment variables when applicable.
 
 ## :wrench: Configuration
 
-1. Clone the repository and install dependencies per the project README.
+1. Clone {{repository.name}} and install dependencies per the project README.
 2. Set any required environment variables or secret files locally (do not commit secrets).
 3. Run lint and test commands once to ensure the base setup passes.
 

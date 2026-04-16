@@ -3,7 +3,6 @@
 ## :book: Table of Contents
 
 - [:file_folder: Development Environment Setup](./#file_folder-development-environment-setup)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:inbox_tray: Installation](./#inbox_tray-installation)
     - [:inbox_tray: Clone the repository](./#inbox_tray-clone-the-repository)
@@ -33,14 +32,13 @@
 ### :inbox_tray: Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone {{repo.remote}}
+cd {{repository.name}}
 ```
 
 ### :inbox_tray: Create development environment
 
-```bash
-```
+<!-- llm<Development.Installation> -->
 
 ### :inbox_tray: Install dependencies
 
@@ -86,13 +84,11 @@ make setup
 
 ### :toolbox: Running Tests
 
-```bash
-```
+<!-- llm<Development.Tests> -->
 
 ### :toolbox: Code Quality
 
-```bash
-```
+<!-- llm<Development.CodeQuality> -->
 
 ### :toolbox: Pre-commit Hooks
 
@@ -117,8 +113,7 @@ If using VS Code, the workspace is pre-configured with:
 
 ## :control_knobs: Customization
 
-```bash
-```
+<!-- llm<Development.Customization> -->
 
 ## :hammer_and_wrench: Common Problems
 

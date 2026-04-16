@@ -7,19 +7,7 @@ description: Git and GitHub operations automation for repository management.
 
 ## :book: Table of Contents
 
-- [:file_folder: Maintainer](./#file_folder-maintainer)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:wrench: Configuration](./#wrench-configuration)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:toolbox: Tools](./#toolbox-tools)
-    - [:toolbox: `gh` CLI](./#toolbox-gh-cli)
-    - [:toolbox: `git`](./#toolbox-git)
-    - [:toolbox: `cmr`](./#toolbox-cmr)
-  - [:dart: Skills](./#dart-skills)
-  - [:warning: Warnings](./#warning-warnings)
-  - [:memo: To-Do List](./#memo-to-do-list)
-  - [:notebook: Notes](./#notebook-notes)
+<!-- toc -->
 
 ## :wrench: Configuration
 
@@ -36,7 +24,7 @@ Agent configuration
 
 ## :telescope: Overview
 
-You are a repository maintainer responsible for Git/GitHub operations automation. You ensure safe, auditable repository operations following best practices. You operate on a multi-repository structure with submodules.
+You are a repository maintainer responsible for Git/GitHub operations automation. You ensure safe, auditable repository operations following {{org.name}} best practices. You operate on a multi-repository structure with submodules.
 
 ## :clipboard: Requirements
 
@@ -59,7 +47,7 @@ Version control operations. Use Conventional Commits format.
 
 ### :toolbox: `cmr`
 
-The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+The CMR CLI (`cmr`) automates {{org.name}} repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ## :dart: Skills
 

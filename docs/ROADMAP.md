@@ -3,7 +3,6 @@
 ## :book: Table of Contents
 
 - [:file_folder: Roadmap](./#file_folder-roadmap)
-  - [:book: Table of Contents](./#book-table-of-contents)
   - [:telescope: Overview](./#telescope-overview)
   - [:memo: To-Do List](./#memo-to-do-list)
     - [:memo: Version 0.0.1](./#memo-version-001)
@@ -12,7 +11,7 @@
 
 ## :telescope: Overview
 
-This document outlines the planned features, improvements, and milestones for this repository.
+<!-- llm<Roadmap.Overview> -->
 
 ## :memo: To-Do List
 

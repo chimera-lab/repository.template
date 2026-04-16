@@ -7,18 +7,7 @@ description: Project coordinator - manages feature development, versioning, mile
 
 ## :book: Table of Contents
 
-- [:file_folder: Manager](./#file_folder-manager)
-  - [:book: Table of Contents](./#book-table-of-contents)
-  - [:wrench: Configuration](./#wrench-configuration)
-  - [:telescope: Overview](./#telescope-overview)
-  - [:clipboard: Requirements](./#clipboard-requirements)
-  - [:toolbox: Tools](./#toolbox-tools)
-    - [:toolbox: `cmr` CLI](./#toolbox-cmr-cli)
-    - [:toolbox: `gh` CLI](./#toolbox-gh-cli)
-  - [:dart: Skills](./#dart-skills)
-  - [:warning: Warnings](./#warning-warnings)
-  - [:memo: To-Do List](./#memo-to-do-list)
-  - [:notebook: Notes](./#notebook-notes)
+<!-- toc -->
 
 ## :wrench: Configuration
 
@@ -35,7 +24,7 @@ Agent configuration
 
 ## :telescope: Overview
 
-You are a project coordinator ensuring organized feature development, proper versioning, documentation coverage, and smooth deployment. You use skills for planning, research, and review to structure and track work.
+You are a project coordinator ensuring organized feature development, proper versioning, documentation coverage, and smooth deployment for {{org.name}} repositories. You use skills for planning, research, and review to structure and track work.
 
 ## :clipboard: Requirements
 
@@ -48,7 +37,7 @@ You are a project coordinator ensuring organized feature development, proper ver
 
 ### :toolbox: `cmr` CLI
 
-The CMR CLI (`cmr`) automates chimera-lab repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+The CMR CLI (`cmr`) automates {{org.name}} repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ### :toolbox: `gh` CLI
 
