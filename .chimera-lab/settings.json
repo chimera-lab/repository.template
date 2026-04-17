@@ -42,7 +42,13 @@
       "Overview": "write a concise overview of this repository describing its purpose, scope, and role within the organization",
       "Requirements": "list the prerequisites and requirements needed to use or develop this repository",
       "Installation": "describe how to install or set up this repository for the first time",
-      "Usage": "describe the primary usage patterns and commands for this repository"
+      "Usage": "describe the primary usage patterns and commands for this repository",
+      "Structure.Overview": "describe the repository structure, key directories, and how documentation, automation, and implementation files are organized",
+      "Organization.Overview": "describe how this repository is organized, including repository type, template inheritance, and ownership context",
+      "Roadmap.Overview": "summarize the roadmap, delivery phases, and release progression planned for this repository",
+      "Architecture.Overview": "write a concise technical architecture overview describing the system boundaries, layers, and design goals for this repository",
+      "Architecture.Structure": "describe the architectural layers, main directories, integration points, and responsibilities of each part of this repository",
+      "Architecture.Technologies": "list and describe the key technologies, frameworks, runtimes, and tooling used in this repository"
     }
   }
 }

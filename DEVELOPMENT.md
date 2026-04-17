@@ -13,6 +13,7 @@
   - [:toolbox: Tools](./#toolbox-tools)
     - [:toolbox: Running Tests](./#toolbox-running-tests)
     - [:toolbox: Code Quality](./#toolbox-code-quality)
+    - [:toolbox: CMR Pipeline](./#toolbox-cmr-pipeline)
     - [:toolbox: Pre-commit Hooks](./#toolbox-pre-commit-hooks)
   - [:wrench: Configuration](./#wrench-configuration)
   - [:control_knobs: Customization](./#control_knobs-customization)
@@ -78,6 +79,9 @@ make clean
 
 # Set up development environment
 make setup
+
+# Run the full CMR pipeline
+make cmr-pipeline
 ```
 
 ## :toolbox: Tools
@@ -89,6 +93,39 @@ make setup
 ### :toolbox: Code Quality
 
 <!-- llm<Development.CodeQuality> -->
+
+### :toolbox: CMR Pipeline
+
+Use the CMR pipeline to keep template consumers synchronized and documentation validated.
+
+```bash
+# 1) Validate docs and directives
+make cmr-check
+
+# 2) Inspect template differences
+make cmr-template-diff
+
+# 3) Apply template changes
+make cmr-template-update
+
+# 4) Refresh directive output and TOC
+make cmr-render
+
+# 5) Run full flow in one command
+make cmr-pipeline
+```
+
+Pipeline order:
+
+```text
+check -> template diff -> template update -> render -> check
+```
+
+Notes:
+
+- `cmr-check` validates docs and tag directives.
+- `cmr-template-diff` is safe to run repeatedly before update.
+- `cmr-render` uses `cmr docs fix --tags` and `cmr docs fix -r toc` for deterministic refresh.
 
 ### :toolbox: Pre-commit Hooks
 

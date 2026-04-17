@@ -39,3 +39,8 @@ Repository template providing the standard structure, docs, and contribution wor
 ## :scroll: License
 
 - Licensed under the terms specified in [:link: LICENSE](LICENSE). Review before distributing or reusing this template.
+
+<!-- llm<tags:repository.template;applied> -->
+
+- template
+- repository
