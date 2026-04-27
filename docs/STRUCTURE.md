@@ -124,6 +124,7 @@ description: {one-line-summary}
 ```
 
 **Example**:
+
 ```yaml
 ---
 name: cmr
@@ -270,6 +271,7 @@ prompts (frontmatter: agent, skills)
 ```
 
 **Allowed references**:
+
 | From | To | Via | Allowed |
 |------|-----|------|---------|
 | Knowledge | docs/ | `:books: References` | ✅ YES |
@@ -280,6 +282,7 @@ prompts (frontmatter: agent, skills)
 | Prompt | Skill | Content references | ✅ YES |
 
 **Forbidden references**:
+
 | From | To | Reason |
 |------|-----|--------|
 | Agent | Agent | No horizontal coupling |
@@ -293,6 +296,7 @@ prompts (frontmatter: agent, skills)
 `.github/` reserved for GitHub-specific automation **only**. No documentation content in `.github/docs/` or `.github/`.
 
 **Directories**:
+
 - `agents/`: AI agent definitions (`*.agent.md` with frontmatter)
 - `prompts/`: Prompt templates (`*.prompt.md` with frontmatter)
 - `skills/`: Agent skills (referenced by agents, not duplicated here)
