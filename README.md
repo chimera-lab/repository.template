@@ -1,10 +1,10 @@
-# :file_folder: {{repository.name}}
+# :file_folder: <!-- <var key="repository.name"> --><!-- </var> -->
 
-Repository template providing the standard structure, docs, and contribution workflow for {{org.name}} projects.
+Repository template providing the standard structure, docs, and contribution workflow for <!-- <var key="org.name"> --><!-- </var> --> projects.
 
 ## :book: Table of Contents
 
-- [:file_folder: {{repository.name}}](./#file_folder-repositoryname)
+- [:file_folder: <!-- <var key="repository.name"> --><!-- </var> -->](./#file_folder-var-keyrepositoryname-var)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:inbox_tray: Installation](./#inbox_tray-installation)
@@ -14,19 +14,19 @@ Repository template providing the standard structure, docs, and contribution wor
 
 ## :telescope: Overview
 
-<!-- llm<Overview> -->
+<!-- <llm prompt="Overview"> --><!-- </llm> -->
 
 ## :clipboard: Requirements
 
-<!-- llm<Requirements> -->
+<!-- <llm prompt="Requirements"> --><!-- </llm> -->
 
 ## :inbox_tray: Installation
 
-<!-- llm<Installation> -->
+<!-- <llm prompt="Installation"> --><!-- </llm> -->
 
 ## :keyboard: Usage
 
-<!-- llm<Usage> -->
+<!-- <llm prompt="Usage"> --><!-- </llm> -->
 
 ## :books: References
 
@@ -40,7 +40,8 @@ Repository template providing the standard structure, docs, and contribution wor
 
 - Licensed under the terms specified in [:link: LICENSE](LICENSE). Review before distributing or reusing this template.
 
-<!-- llm<tags:repository.template;applied> -->
+<!-- <llm prompt="tags:repository.template" applied> -->
 
 - template
 - repository
+<!-- </llm> -->

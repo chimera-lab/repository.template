@@ -15,7 +15,7 @@
 
 ## :telescope: Overview
 
-<!-- llm<Organization.Overview> -->
+<!-- <llm prompt="Organization.Overview"> --><!-- </llm> -->
 
 ## :building_construction: Structure
 
@@ -92,7 +92,7 @@ repository.template (base)
     "template": "app.template"
   },
   "remote_template": {
-    "repo": "{{org.name}}/app.template",
+    "repo": "<!-- <var key="org.name"> --><!-- </var> -->/app.template",
     "branch": "main"
   }
 }
@@ -102,7 +102,7 @@ repository.template (base)
 
 ### :toolbox: `cmr`
 
-The CMR CLI (`cmr`) automates {{org.name}} repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+The CMR CLI (`cmr`) automates <!-- <var key="org.name"> --><!-- </var> --> repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
 
 ## :books: References
 

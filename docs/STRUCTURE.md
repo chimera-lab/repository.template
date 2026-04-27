@@ -23,7 +23,7 @@
 
 ## :telescope: Overview
 
-<!-- llm<Structure.Overview> -->
+<!-- <llm prompt="Structure.Overview"> --><!-- </llm> -->
 
 ## :building_construction: Structure
 
@@ -183,8 +183,8 @@ Documentation placeholders for LLM-guided content generation:
 
 **Patterns**:
 
-- `<!-- llm<SectionName> -->` for README sections such as `Overview` or `Usage`
-- `<!-- llm<Namespace.Section> -->` for documentation pages such as `Architecture.Overview`
+- `<!-- <llm prompt="SectionName"> --><!-- </llm> -->` for README sections such as `Overview` or `Usage`
+- `<!-- <llm prompt="Namespace.Section"> --><!-- </llm> -->` for documentation pages such as `Architecture.Overview`
 
 **Active mappings by file**:
 
@@ -225,8 +225,8 @@ CMR directives are reserved for generated repository and organization inventorie
 **Syntax**:
 
 ```html
-<!-- cmr:<group.command[key=value,...]> -->
-<!-- cmr:<group.command;applied> -->
+<!-- <cmr cmd="group.command[key=value,...]"> --><!-- </cmr> -->
+<!-- <cmr cmd="group.command" applied> -->...content...<!-- </cmr> -->
 ```
 
 **Supported baseline directives in current workspace**:

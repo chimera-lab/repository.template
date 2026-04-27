@@ -33,13 +33,13 @@
 ### :inbox_tray: Clone the repository
 
 ```bash
-git clone {{repo.remote}}
-cd {{repository.name}}
+git clone <!-- <var key="repo.remote"> --><!-- </var> -->
+cd <!-- <var key="repository.name"> --><!-- </var> -->
 ```
 
 ### :inbox_tray: Create development environment
 
-<!-- llm<Development.Installation> -->
+<!-- <llm prompt="Development.Installation"> --><!-- </llm> -->
 
 ### :inbox_tray: Install dependencies
 
@@ -88,11 +88,11 @@ make cmr-pipeline
 
 ### :toolbox: Running Tests
 
-<!-- llm<Development.Tests> -->
+<!-- <llm prompt="Development.Tests"> --><!-- </llm> -->
 
 ### :toolbox: Code Quality
 
-<!-- llm<Development.CodeQuality> -->
+<!-- <llm prompt="Development.CodeQuality"> --><!-- </llm> -->
 
 ### :toolbox: CMR Pipeline
 
@@ -150,7 +150,7 @@ If using VS Code, the workspace is pre-configured with:
 
 ## :control_knobs: Customization
 
-<!-- llm<Development.Customization> -->
+<!-- <llm prompt="Development.Customization"> --><!-- </llm> -->
 
 ## :hammer_and_wrench: Common Problems
 

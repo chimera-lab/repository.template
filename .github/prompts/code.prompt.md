@@ -7,7 +7,7 @@ description: 'Execute development tasks such as coding, committing, and verifyin
 
 ## :book: Table of Contents
 
-<!-- toc -->
+<!-- <toc> --><!-- </toc> -->
 
 ## :world_map: Guides
 

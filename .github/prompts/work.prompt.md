@@ -6,7 +6,7 @@ description: 'Execute general development and engineering tasks.'
 
 ## :book: Table of Contents
 
-<!-- toc -->
+<!-- <toc> --><!-- </toc> -->
 
 ## :world_map: Guides
 

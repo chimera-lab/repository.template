@@ -17,13 +17,13 @@
 
 ## :telescope: Overview
 
-<!-- llm<Architecture.Overview> -->
+<!-- <llm prompt="Architecture.Overview"> --><!-- </llm> -->
 
 This document defines the technical architecture baseline for repositories derived from this template. It explains structural boundaries, integration points, and quality controls so implementations remain consistent across inherited templates.
 
 ## :building_construction: Structure
 
-<!-- llm<Architecture.Structure> -->
+<!-- <llm prompt="Architecture.Structure"> --><!-- </llm> -->
 
 ### :building_construction: Architectural Layers
 
@@ -71,7 +71,7 @@ Repository Architecture
 
 ## :triangular_ruler: Technologies
 
-<!-- llm<Architecture.Technologies> -->
+<!-- <llm prompt="Architecture.Technologies"> --><!-- </llm> -->
 
 ### :triangular_ruler: Core Toolchain
 
