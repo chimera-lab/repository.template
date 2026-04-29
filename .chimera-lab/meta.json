@@ -10,16 +10,10 @@
     "chimera-lab"
   ],
   "createdAt": "2026-04-28T02:16:31.995Z",
-  "updatedAt": "2026-04-28T02:21:25.841Z",
+  "updatedAt": "2026-04-29T16:42:54.266Z",
   "repo": {
     "template": null,
     "name": "repository.template",
     "type": "template"
-  },
-  "name": "repository.template",
-  "template": null,
-  "parent": null,
-  "level": 0,
-  "is_template": true,
-  "created_at": "2025-12-24"
+  }
 }
