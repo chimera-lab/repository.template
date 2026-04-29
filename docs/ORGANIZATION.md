@@ -15,9 +15,15 @@
 
 ## :telescope: Overview
 
-<!-- <llm prompt="Organization.Overview"> --><!-- </llm> -->
+<!-- <llm prompt="Organization.Overview" applied> -->
+
+This document describes the organizational layout that derived repositories follow: directory structure, repository categories by suffix, and how templates inherit from one another to keep the organization consistent.
+
+<!-- </llm> -->
 
 ## :building_construction: Structure
+
+<!-- <llm prompt="Organization.Structure" applied> -->
 
 ```text
 repository-name.suffix/
@@ -92,17 +98,23 @@ repository.template (base)
     "template": "app.template"
   },
   "remote_template": {
-    "repo": "<!-- <var key="org.name"> --><!-- </var> -->/app.template",
+    "repo": "<!-- <var key="org.name" applied> -->chimera-lab.org<!-- </var> -->/app.template",
     "branch": "main"
   }
 }
 ```
 
+<!-- </llm> -->
+
 ## :toolbox: Tools
+
+<!-- <llm prompt="Organization.Tools" applied> -->
 
 ### :toolbox: `cmr`
 
-The CMR CLI (`cmr`) automates <!-- <var key="org.name"> --><!-- </var> --> repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+The CMR CLI (`cmr`) automates <!-- <var key="org.name" applied> -->chimera-lab.org<!-- </var> --> repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+
+<!-- </llm> -->
 
 ## :books: References
 

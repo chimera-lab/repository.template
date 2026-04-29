@@ -17,13 +17,17 @@
 
 ## :telescope: Overview
 
-<!-- <llm prompt="Architecture.Overview"> --><!-- </llm> -->
+<!-- <llm prompt="Architecture.Overview" applied> -->
 
 This document defines the technical architecture baseline for repositories derived from this template. It explains structural boundaries, integration points, and quality controls so implementations remain consistent across inherited templates.
 
+<!-- </llm> -->
+
 ## :building_construction: Structure
 
-<!-- <llm prompt="Architecture.Structure"> --><!-- </llm> -->
+<!-- <llm prompt="Architecture.Structure" applied> -->
+
+The repository is layered into governance, configuration, automation, documentation, and implementation concerns. Each layer has a clear purpose and is described in the subsections below.
 
 ### :building_construction: Architectural Layers
 
@@ -69,9 +73,13 @@ Repository Architecture
 - Child templates may extend architecture details but should not break baseline layer boundaries.
 - Shared changes must be performed at the highest suitable template level to reduce duplication and drift.
 
+<!-- </llm> -->
+
 ## :triangular_ruler: Technologies
 
-<!-- <llm prompt="Architecture.Technologies"> --><!-- </llm> -->
+<!-- <llm prompt="Architecture.Technologies" applied> -->
+
+The technology baseline covers the core toolchain, validation tooling, and publication readiness expected for derived repositories.
 
 ### :triangular_ruler: Core Toolchain
 
@@ -91,6 +99,8 @@ Repository Architecture
 - Repository should be publishable under Apache-2.0 with required notices preserved.
 - Documentation and metadata must be consistent before release tagging.
 - CI should fail on structural violations to prevent drift from template architecture.
+
+<!-- </llm> -->
 
 ## :books: References
 

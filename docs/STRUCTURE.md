@@ -5,187 +5,51 @@
 - [:file_folder: Repository Structure](./#file_folder-repository-structure)
   - [:telescope: Overview](./#telescope-overview)
   - [:building_construction: Structure](./#building_construction-structure)
-    - [:building_construction: Root Level](./#building_construction-root-level)
-    - [:building_construction: `.chimera-lab/` Directory](./#building_construction-chimera-lab-directory)
-    - [:building_construction: `.github/` Directory](./#building_construction-github-directory)
-    - [:building_construction: `docs/` Directory](./#building_construction-docs-directory)
-    - [:building_construction: Documentation Hierarchy](./#building_construction-documentation-hierarchy)
-    - [:building_construction: Configuration Hierarchy](./#building_construction-configuration-hierarchy)
-    - [:building_construction: Documentation Patterns & Conventions](./#building_construction-documentation-patterns-conventions)
-      - [:building_construction: Knowledge Files Frontmatter](./#building_construction-knowledge-files-frontmatter)
-      - [:building_construction: Canonical Knowledge Inventory](./#building_construction-canonical-knowledge-inventory)
-      - [:building_construction: Semantic Header Vocabulary](./#building_construction-semantic-header-vocabulary)
-      - [:building_construction: Render Tag Mappings](./#building_construction-render-tag-mappings)
-      - [:building_construction: CMR Directive Catalog](./#building_construction-cmr-directive-catalog)
-      - [:building_construction: Layer Separation Rules](./#building_construction-layer-separation-rules)
-      - [:building_construction: GitHub Automation Structure](./#building_construction-github-automation-structure)
+    - [:building_construction: CMR Directive Catalog](./#building_construction-cmr-directive-catalog)
+    - [:building_construction: Layer Separation Rules](./#building_construction-layer-separation-rules)
+    - [:building_construction: Semantic Header Vocabulary](./#building_construction-semantic-header-vocabulary)
+    - [:building_construction: GitHub Automation Structure](./#building_construction-github-automation-structure)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview
 
-<!-- <llm prompt="Structure.Overview"> --><!-- </llm> -->
+<!-- <llm prompt="Structure.Overview" > -->
+
+This repository is organized as a documentation-first template for maintaining consistent project standards. The root directory contains the primary repository documents and operational references, including the main overview, template guidance, contribution and development policies, security and conduct documents, licensing, and release history. Supporting material lives under `docs/`, where deeper references and visual artifacts can be kept without cluttering the top level.
+
+The structure is intentionally simple: core documents stay easy to find, while supplementary guidance is separated into dedicated documentation space. This keeps the repository readable for contributors, predictable for automation, and easy to reuse as a standardized foundation for new projects.
+
+<!-- </llm> -->
 
 ## :building_construction: Structure
 
-### :building_construction: Root Level
+<!-- <llm prompt="Structure.Structure" applied> -->
 
-```text
-repository/
-├── .chimera-lab/           # Repository metadata and configuration
-├── .github/                # GitHub-specific files
-├── docs/                   # Additional documentation (project-specific)
-├── src/                    # Source code (if applicable)
-├── tests/                  # Test files (if applicable)
-├── README.md               # Main documentation
-├── CHANGELOG.md            # Version history
-├── CONTRIBUTING.md         # Contribution guidelines
-├── CODE_OF_CONDUCT.md      # Community guidelines
-├── SECURITY.md             # Security policy
-└── LICENSE                 # License terms
-```
+The repository is organized so that core, reusable documents live at the root and supporting material is grouped by purpose.
 
-### :building_construction: `.chimera-lab/` Directory
+- Root files provide the main entry points for contributors and consumers, including `README.md`, `TEMPLATE.md`, `DEVELOPMENT.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `CHANGELOG.md`, `LICENSE`, and `Makefile`.
+- `docs/` contains supplementary reference material, such as diagrams and deeper documentation that supports the main templates and guides.
+- `.github/` contains repository automation and agent-related configuration, including prompts, agents, and skills used to coordinate structured workflows.
 
-Configuration and metadata:
+This layout keeps the repository easy to navigate: primary guidance is immediately visible at the top level, detailed references are isolated in `docs/`, and operational automation remains separate from user-facing documentation.
 
-```text
-.chimera-lab/
-├── meta.json               # Repository metadata
-│   ├── description         # Short description
-│   ├── tags                # Category tags
-│   ├── template            # Template name
-│   └── remote_template     # Template repository info
-└── settings.json           # Configuration
-    ├── custom_variables    # Template variables
-    └── validation_rules    # Documentation rules
-```
+<!-- </llm> -->` for README sections such as `Overview` or `Usage`
 
-### :building_construction: `.github/` Directory
+<!-- <llm prompt="Namespace.Section" applied> -->
 
-GitHub workflows and automation:
+Use `Namespace.Section` to document a focused capability within a broader module, package, or domain. The `Namespace` part identifies the owning area of the system, and the `Section` part identifies the specific concern being described. This naming pattern keeps documentation predictable, easy to scan, and consistent across related components.
 
-```text
-.github/
-├── agents/                 # AI agent definitions
-│   ├── *.agent.md          # Agent files
-│   └── README.md           # Agents overview
-├── prompts/                # Prompt templates
-│   └── *.prompt.md         # Prompt files
-└── workflows/              # GitHub Actions (if applicable)
-    └── *.yml               # Workflow definitions
-```
+Document this section with:
 
-### :building_construction: `docs/` Directory
+- the responsibility and scope of the component
+- key interfaces, inputs, and outputs
+- important dependencies and integration points
+- constraints, assumptions, and operational behavior
+- links to related sections when behavior spans multiple namespaces
 
-Documentation and knowledge base:
+Prefer stable names over implementation details. If a component changes internally but its documented responsibility stays the same, keep the existing `Namespace.Section` name and update the content instead of creating duplicate sections.
 
-```text
-docs/
-├── ARCHITECTURE.md         # Technical architecture
-├── ORGANIZATION.md         # Organization structure
-├── ROADMAP.md              # Project roadmap
-├── STRUCTURE.md            # Repository structure (this file)
-├── diagrams/               # Diagrams and visual assets
-└── knowledge/              # Knowledge base
-    └── *.knowledge.md      # Knowledge files
-```
-
-### :building_construction: Documentation Hierarchy
-
-```text
-README.md (entry point)
-├── docs/knowledge/*.knowledge.md (concepts)
-└── docs/*.md (detailed guides)
-    ├── ARCHITECTURE.md
-    ├── ORGANIZATION.md
-    ├── ROADMAP.md
-    └── STRUCTURE.md
-```
-
-### :building_construction: Configuration Hierarchy
-
-```text
-.chimera-lab/meta.json (metadata)
-└── .chimera-lab/settings.json (configuration)
-    └── custom_variables (template overrides)
-```
-
-### :building_construction: Documentation Patterns & Conventions
-
-#### :building_construction: Knowledge Files Frontmatter
-
-All knowledge files (`.knowledge.md`) require YAML frontmatter at the top:
-
-```yaml
----
-name: {filename-stem}
-description: {one-line-summary}
----
-```
-
-**Example**:
-
-```yaml
----
-name: cmr
-description: CMR CLI tool reference and command patterns
----
-```
-
-#### :building_construction: Canonical Knowledge Inventory
-
-The repository defines 9 required knowledge files covering core domains:
-
-| File | Description | Max Lines | Purpose |
-|------|-------------|-----------|---------|
-| `automation.knowledge.md` | CI/CD workflows and automation | 250 | Deployment, versioning, release patterns |
-| `cmr.knowledge.md` | CMR CLI reference and commands | 250 | Complete command reference (most detailed) |
-| `deployment.knowledge.md` | Release and environment management | 250 | Versioning, environments, verification |
-| `operating.knowledge.md` | Git operations and workflows | 250 | Git commands, workflow execution, repository context |
-| `planning.knowledge.md` | Task decomposition and milestones | 250 | Execution order, issue analysis, planning |
-| `repository.knowledge.md` | Repository structure and templates | 250 | Structure conventions, naming patterns, metadata |
-| `researching.knowledge.md` | Context discovery and analysis | 250 | Codebase exploration, issue analysis, discovery |
-| `reviewing.knowledge.md` | Validation and quality gates | 250 | Code review, documentation review, context validation |
-| `validating.knowledge.md` | Structure validation and header types | 250 | Header vocabulary, naming rules, structure validation |
-
-**Constraint**: All knowledge files ≤250 lines per file to maintain LLM-first focus. See [:page_facing_up: validating.knowledge.md](knowledge/validating.knowledge.md) for validation rules.
-
-#### :building_construction: Semantic Header Vocabulary
-
-All headers must use emoji prefixes from the standardized vocabulary:
-
-| Emoji | Category | Usage | Examples |
-|-------|----------|-------|----------|
-| `:file_folder:` | Structure | Main heading, file role, directory | "Repository Structure", "Files Directory" |
-| `:book:` | Navigation | Table of contents | Always used for "Table Of Contents" |
-| `:telescope:` | Discovery | Overview/summary | "Overview" sections |
-| `:clipboard:` | Specification | Requirements, checklist | "Requirements", configuration items |
-| `:inbox_tray:` | Input | Installation, setup | "Installation", input workflows |
-| `:keyboard:` | Execution | Usage, commands, workflow | "Usage", step-by-step guides |
-| `:books:` | Reference | Documentation links | Always for "References" section |
-| `:scroll:` | Legal | License, terms, policies | License sections |
-| `:building_construction:` | Architecture | Structure, design, hierarchy | STRUCTURE, ORGANIZATION sections |
-| `:triangular_ruler:` | Technology | Tech stack, tools | "Technologies", implementation details |
-| `:world_map:` | Navigation | Guides, workflows | Multi-step procedures, routing |
-| `:toolbox:` | Tools | Utilities, CLI | CLI references, tool descriptions |
-| `:warning:` | Alert | Warnings, cautions | Important notices, gotchas |
-| `:wrench:` | Configuration | Settings, parameters | Configuration sections |
-| `:compass:` | Direction | Steps, waypoints | Step-by-step guides |
-| `:hammer_and_wrench:` | Remediation | Troubleshooting | Problem-solving, fixes |
-| `:memo:` | Plan | To-Do lists, milestones | Tasks, planned work |
-| `:notebook:` | Documentation | Notes, annotations | Remarks, observations |
-| `:dart:` | Skills | Agent capabilities | Skill references, capabilities |
-
-**Rule**: All typed headers must include emoji. See [:page_facing_up: validating.knowledge.md](knowledge/validating.knowledge.md) for complete typed header list.
-
-#### :building_construction: Render Tag Mappings
-
-Documentation placeholders for LLM-guided content generation:
-
-**Patterns**:
-
-- `<!-- <llm prompt="SectionName"> --><!-- </llm> -->` for README sections such as `Overview` or `Usage`
-- `<!-- <llm prompt="Namespace.Section"> --><!-- </llm> -->` for documentation pages such as `Architecture.Overview`
+<!-- </llm> -->` for documentation pages such as `Architecture.Overview`
 
 **Active mappings by file**:
 
@@ -272,24 +136,73 @@ prompts (frontmatter: agent, skills)
 
 **Allowed references**:
 
-| From | To | Via | Allowed |
-|------|-----|------|---------|
-| Knowledge | docs/ | `:books: References` | ✅ YES |
-| Knowledge | sibling knowledge | `:books: References` | ✅ YES |
-| Skill | Knowledge | `:books: References` in SKILL.md | ✅ YES |
-| Agent | Skill | `:dart: Skills` section | ✅ YES |
-| Prompt | Agent | Frontmatter `agent:` | ✅ YES |
-| Prompt | Skill | Content references | ✅ YES |
+| From      | To                | Via                              | Allowed |
+| --------- | ----------------- | -------------------------------- | ------- |
+| Knowledge | docs/             | `:books: References`             | ✅ YES   |
+| Knowledge | sibling knowledge | `:books: References`             | ✅ YES   |
+| Skill     | Knowledge         | `:books: References` in SKILL.md | ✅ YES   |
+| Agent     | Skill             | `:dart: Skills` section          | ✅ YES   |
+| Prompt    | Agent             | Frontmatter `agent:`             | ✅ YES   |
+| Prompt    | Skill             | Content references               | ✅ YES   |
 
 **Forbidden references**:
 
-| From | To | Reason |
-|------|-----|--------|
-| Agent | Agent | No horizontal coupling |
-| Skill | Skill | No horizontal coupling |
-| Prompt | Prompt | No horizontal coupling |
-| Knowledge | Agent | Breaks layer boundary |
-| Docs | Knowledge | One-way flow only |
+| From      | To        | Reason                 |
+| --------- | --------- | ---------------------- |
+| Agent     | Agent     | No horizontal coupling |
+| Skill     | Skill     | No horizontal coupling |
+| Prompt    | Prompt    | No horizontal coupling |
+| Knowledge | Agent     | Breaks layer boundary  |
+| Docs      | Knowledge | One-way flow only      |
+
+#### :building_construction: Semantic Header Vocabulary
+
+All headers must use emoji prefixes from the standardized vocabulary. The table below is generated from the canonical typed-header registry exposed by `cmr docs headers list-typed`:
+
+<!-- <table Emoji="headers.items.*.emoji" Name="headers.items.*.name" Category="headers.items.*.category" Description="headers.items.*.description" Examples="headers.items.*.examples" applied> -->
+
+<!-- <data name="headers"> -->
+
+<!-- <cmr cmd="docs.headers.list-typed" applied> --><!-- </cmr> -->
+
+<!-- </data> -->
+
+| Emoji                     | Name              | Category      | Description                         | Examples                                  |
+| ------------------------- | ----------------- | ------------- | ----------------------------------- | ----------------------------------------- |
+| `:paperclip:`             | Appendix          | Reference     | Supplementary material              | Appendix A, Appendix: Glossary            |
+| `:book:`                  | Chapter           | Navigation    | Major document section              | Chapter 1: Introduction, Chapter 2: Setup |
+| `:hammer_and_wrench:`     | Common Problems   | Remediation   | Known issues and solutions          | Common Problems, Troubleshooting          |
+| `:jigsaw:`                | Components        | Structure     | System components description       | Components, Subsystems                    |
+| `:wrench:`                | Configuration     | Configuration | Configuration options and settings  | Configuration, Settings                   |
+| `:busts_in_silhouette:`   | Contributing      | Community     | Contribution guidelines             | Contributing                              |
+| `:medal_sports:`          | Credits           | Community     | Contributors and acknowledgments    | Credits, Acknowledgments                  |
+| `:control_knobs:`         | Customization     | Configuration | Customization options               | Customization                             |
+| `:page_facing_up:`        | Files             | Structure     | File listings and descriptions      | Files, File Layout                        |
+| `:world_map:`             | Guides            | Navigation    | Step-by-step guides and tutorials   | Guides, Tutorials                         |
+| `:inbox_tray:`            | Installation      | Input         | Installation instructions           | Installation, Setup                       |
+| `:loudspeaker:`           | Introduction      | Discovery     | Introductory content                | Introduction, Preface                     |
+| `:scroll:`                | License           | Legal         | License information                 | License                                   |
+| `:package:`               | Material          | Structure     | Materials and resources             | Material, Bill of Materials               |
+| `:notebook:`              | Notes             | Documentation | Additional notes and remarks        | Notes, Remarks                            |
+| `:telescope:`             | Overview          | Discovery     | High-level overview                 | Overview, Summary                         |
+| `:books:`                 | References        | Reference     | External references and links       | References                                |
+| `:clipboard:`             | Requirements      | Specification | Prerequisites and requirements      | Requirements, Prerequisites               |
+| `:link:`                  | See Also          | Reference     | Related topics and cross-references | See Also                                  |
+| `:dart:`                  | Skills            | Skills        | Agent skills and capabilities       | Skills, Capabilities                      |
+| `:gear:`                  | Software          | Technology    | Software dependencies               | Software, Dependencies                    |
+| `:newspaper:`             | Sources           | Reference     | Source materials and citations      | Sources, Citations                        |
+| `:compass:`               | Step              | Navigation    | Individual step in guide/chapter    | Step 1: Install, Step 2: Configure        |
+| `:building_construction:` | Structure         | Architecture  | Structural information              | Structure, Architecture                   |
+| `:card_file_box:`         | Submodule         | Structure     | Git submodule information           | Submodule, Submodules                     |
+| `:book:`                  | Table Of Contents | Navigation    | Document navigation section         | Table Of Contents, TOC                    |
+| `:triangular_ruler:`      | Technologies      | Technology    | Technologies used                   | Technologies, Tech Stack                  |
+| `:mag:`                   | Terminology       | Reference     | Terms and definitions               | Terminology, Glossary                     |
+| `:memo:`                  | To-Do List        | Plan          | Planned tasks and future work       | To-Do List, Backlog                       |
+| `:toolbox:`               | Tools             | Tools         | Tools and utilities                 | Tools, CLI                                |
+| `:keyboard:`              | Usage             | Execution     | Usage instructions and examples     | Usage, Examples                           |
+| `:warning:`               | Warnings          | Alert         | Important warnings and cautions     | Warnings, Cautions                        |
+
+<!-- </table> -->
 
 #### :building_construction: GitHub Automation Structure
 

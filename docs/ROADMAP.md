@@ -20,6 +20,8 @@
 
 ## :telescope: Overview
 
+<!-- <llm prompt="Roadmap.Overview" applied> -->
+
 This roadmap outlines the strategic vision and engineering phases for the repository. It aligns with the planning and milestone frameworks documented in [:page_facing_up: knowledge/planning.knowledge.md](knowledge/planning.knowledge.md).
 
 **High-Level Vision**: Establish a stable, well-tested, and fully documented repository foundation with automated CI/CD workflows and clear contribution pathways.
@@ -31,7 +33,11 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 - CI/CD automation operational on all commits
 - Community contribution guidelines established
 
+<!-- </llm> -->
+
 ## :building_construction: Structure
+
+<!-- <llm prompt="Roadmap.Structure" applied> -->
 
 ### :building_construction: Phase 1: Core Foundation (v0.0.1 — Weeks 1–2)
 
@@ -39,7 +45,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 
 - [ ] Repository structure and file scaffolding
 - [ ] License (Apache-2.0) and compliance setup
-- [ ] Base documentation (README, CONTRIBUTING, CODE_OF_CONDUCT)
+- [ ] Base documentation (README, CONTRIBUTING, CODE\_OF\_CONDUCT)
 - [ ] Configuration files (.chimera-lab/meta.json, settings.json)
 
 ### :building_construction: Phase 2: Documentation & Knowledge (v0.0.1 — Weeks 3–4)
@@ -75,7 +81,7 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 
 - [ ] CONTRIBUTING.md with detailed workflows
 - [ ] Issue templates and labeling strategy
-- [ ] CODE_OF_CONDUCT and security policy
+- [ ] CODE\_OF\_CONDUCT and security policy
 - [ ] Community onboarding documentation
 
 ### :building_construction: Phase 6: Performance Optimization (v0.1.0 — Q3 2026)
@@ -96,7 +102,11 @@ This roadmap outlines the strategic vision and engineering phases for the reposi
 - [ ] Scalability testing
 - [ ] Support and escalation pathways
 
+<!-- </llm> -->
+
 ## :memo: To-Do List
+
+<!-- <llm prompt="Roadmap.ToDoList" applied> -->
 
 ### :memo: Version 0.0.1 Foundation
 
@@ -122,6 +132,8 @@ Full enterprise release (Q4 2026)
 
 - [ ] Phase 7: Enterprise & Scale
 - [ ] Release 1.0.0 tagged and published
+
+<!-- </llm> -->
 
 ## :books: References
 
