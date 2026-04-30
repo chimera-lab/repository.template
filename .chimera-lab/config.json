@@ -14,12 +14,10 @@
       "Architecture.Structure": "describe the architectural layers, main directories, integration points, and responsibilities of each part of this repository",
       "Architecture.Technologies": "list and describe the key technologies, frameworks, runtimes, and tooling used in this repository",
       "Architecture.Components": "list and describe the main system components, modules, and their responsibilities within this repository",
-      "Structure.Structure": "describe the directive system used in this repository, including LLM directives for narrative content and CMR directives for generated inventories, with active mappings by file, validation commands, and configuration resolution policy",
-      "Structure.DirectiveCatalog": "document the CMR directive catalog including syntax, supported baseline directives list, usage guidelines per repository type, and rules for when to use CMR vs LLM directives",
       "Structure.LayerSeparation": "document the layer separation rules for documentation organization, including the hierarchy diagram, the allowed references table between prompts/agents/skills/knowledge/docs layers, and the forbidden references table",
-      "Structure.SemanticHeaders": "describe the standardized semantic header vocabulary used across documentation, list all emoji prefixes with their name, category, description, and example usages",
-      "Structure.GitHubAutomation": "document the .github/ directory structure reserved for GitHub automation only, listing the directories (agents, prompts, skills, workflows, ISSUE_TEMPLATE) and the constraint that all agents/prompts/skills reference documentation via knowledge",
-      "Structure.References": "list references to related documentation files for this repository structure document"
+      "Structure.SemanticHeaders": "describe the standardized semantic header vocabulary used across documentation",
+      "Structure.GitHubAutomation": "document the .github/ directory structure reserved for GitHub automation only, listing the directories and the constraint that all agents/prompts/skills reference documentation via knowledge, never vice versa",
+      "Structure.References": "list the reference links to related documentation files for this repository structure page"
     }
   }
 }
