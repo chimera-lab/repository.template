@@ -1,42 +1,5 @@
 {
-  "patterns": {
-    "doc_patterns": [
-      "*.md",
-      "docs/**/*.md",
-      "CHANGELOG.md",
-      "README.md",
-      "LICENSE",
-      "CODE_OF_CONDUCT.md",
-      "CONTRIBUTING.md",
-      "SECURITY.md"
-    ],
-    "github_patterns": [
-      ".github/**/*"
-    ],
-    "agent_patterns": [
-      ".github/agents/*.agent.md"
-    ],
-    "prompt_patterns": [
-      ".github/prompts/*.prompt.md"
-    ],
-    "knowledge_patterns": [
-      "docs/knowledge/*.knowledge.md"
-    ],
-    "docs_default_pattern": "**/*.md"
-  },
-  "skip_files": [],
-  "custom_variables": {},
-  "validation": {
-    "enabled_validators": [],
-    "disabled_validators": [],
-    "headers": {
-      "enforce_typed_headers": true,
-      "require_emoji_prefix": true,
-      "allow_custom_headers": false,
-      "custom_headers_patterns": [],
-      "ignored_files": []
-    }
-  },
+  "validation": {},
   "llm": {
     "headerPrompts": {
       "Overview": "write a concise overview of this repository describing its purpose, scope, and role within the organization",
