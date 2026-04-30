@@ -25,15 +25,9 @@ The structure is intentionally simple: core documents stay easy to find, while s
 
 <!-- <llm prompt="Structure.Structure"> -->
 
-`directive: <llm prompt="Structure.Structure">`
+`directive: <llm prompt="Structure.Structure">` for README sections such as `Overview` or `Usage`
 
-<!-- </llm> -->` for README sections such as `Overview` or `Usage`
-
-<!-- <llm prompt="Namespace.Section"> -->
-
-`directive: <llm prompt="Namespace.Section">`
-
-<!-- </llm> -->` for documentation pages such as `Architecture.Overview`
+`directive: <llm prompt="Namespace.Section">` for documentation pages such as `Architecture.Overview`
 
 **Active mappings by file**:
 
@@ -67,7 +61,11 @@ ARCHITECTURE.md:
 - Optional shared location: organization-level settings when the same prompt set is reused across multiple templates or repositories
 - Override rule: keep repository-specific overrides minimal and only for genuinely divergent wording or structure
 
+<!-- </llm> -->
+
 #### :building_construction: CMR Directive Catalog
+
+<!-- <llm prompt="Structure.DirectiveCatalog"> -->
 
 CMR directives are reserved for generated repository and organization inventories. They should be used only when the content is expected to be refreshed by `cmr docs render`.
 
@@ -114,7 +112,11 @@ org.stats
 - Do not invent new directives in templates without first verifying resolver support in CMR knowledge and implementation.
 - Preserve `;applied` only for rendered output; source templates should keep the unresolved directive form.
 
+<!-- </llm> -->
+
 #### :building_construction: Layer Separation Rules
+
+<!-- <llm prompt="Structure.LayerSeparation"> -->
 
 Documentation organization follows strict layer boundaries to maintain clarity and reusability:
 
@@ -147,7 +149,11 @@ prompts (frontmatter: agent, skills)
 | Knowledge | Agent     | Breaks layer boundary  |
 | Docs      | Knowledge | One-way flow only      |
 
+<!-- </llm> -->
+
 #### :building_construction: Semantic Header Vocabulary
+
+<!-- <llm prompt="Structure.SemanticHeaders"> -->
 
 All headers must use emoji prefixes from the standardized vocabulary. The table below is generated from the canonical typed-header registry exposed by `cmr docs headers list-typed`:
 
@@ -200,7 +206,11 @@ All headers must use emoji prefixes from the standardized vocabulary. The table 
 
 <!-- </table> -->
 
+<!-- </llm> -->
+
 #### :building_construction: GitHub Automation Structure
+
+<!-- <llm prompt="Structure.GitHubAutomation"> -->
 
 `.github/` reserved for GitHub-specific automation **only**. No documentation content in `.github/docs/` or `.github/`.
 
@@ -214,9 +224,15 @@ All headers must use emoji prefixes from the standardized vocabulary. The table 
 
 **Constraint**: All agents/prompts/skills reference documentation via knowledge, never vice versa.
 
+<!-- </llm> -->
+
 ## :books: References
+
+<!-- <llm prompt="Structure.References"> -->
 
 - [:page_facing_up: ORGANIZATION.md](ORGANIZATION.md)
 - [:page_facing_up: ../../README.md](../../README.md)
 - [:page_facing_up: knowledge/validating.knowledge.md](knowledge/validating.knowledge.md)
 - [:page_facing_up: knowledge/reviewing.knowledge.md](knowledge/reviewing.knowledge.md)
+
+<!-- </llm> -->
