@@ -15,104 +15,25 @@
 
 ## :telescope: Overview
 
-<!-- <llm prompt="Organization.Overview" applied> -->
+<!-- <llm prompt="Organization.Overview"> -->
 
-This document describes the organizational layout that derived repositories follow: directory structure, repository categories by suffix, and how templates inherit from one another to keep the organization consistent.
+`directive: <llm prompt="Organization.Overview">`
 
 <!-- </llm> -->
 
 ## :building_construction: Structure
 
-<!-- <llm prompt="Organization.Structure" applied> -->
+<!-- <llm prompt="Organization.Structure"> -->
 
-```text
-repository-name.suffix/
-├── .chimera-lab/           # Repository metadata
-│   ├── meta.json           # Description, tags, template
-│   └── settings.json       # Configuration
-├── .github/                # GitHub workflows
-│   ├── agents/             # AI agent definitions
-│   └── prompts/            # Prompt templates
-├── docs/                   # Documentation and knowledge
-│   └── knowledge/          # Knowledge base
-├── README.md               # Main documentation
-├── CHANGELOG.md            # Version history
-├── CONTRIBUTING.md         # Contribution guidelines
-├── CODE_OF_CONDUCT.md      # Community guidelines
-├── SECURITY.md             # Security policy
-└── LICENSE                 # License terms
-```
-
-Repositories are categorized by suffix:
-
-### :building_construction: Knowledge & Research
-
-- **`.topic`** - Knowledge areas, research, documentation collections
-- **`.overview`** - High-level summaries and guides
-
-### :building_construction: Implementation
-
-- **`.project`** - Concrete implementations with deliverables
-- **`.app`** - Standalone applications (web, mobile, desktop, CLI)
-- **`.package`** - Reusable libraries/packages
-
-### :building_construction: Templates & Tools
-
-- **`.scaffold`** - Project templates and generators
-- **`.template`** - Reusable document/code templates
-
-### :building_construction: Template Inheritance
-
-Templates are GitHub repositories that provide reusable structures. Repositories inherit from templates through a hierarchical chain.
-
-**Template Hierarchy**:
-
-```text
-repository.template (base)
-├── topic.template
-├── overview.template
-├── diy.template
-├── app.template
-│   └── laravel_app.template
-├── project.template
-├── scaffold.template
-│   └── docker_scaffold.template
-└── org.template
-```
-
-**How Templates Work**:
-
-1. **Template Selection**: Repositories specify their template in `.chimera-lab/meta.json`
-2. **Template Storage**: Template added as Git submodule at `.github/.template`
-3. **Inheritance Chain**: Templates inherit from parent templates
-   - Example: `laravel_app.template` → `app.template` → `repository.template`
-4. **Updates**: Changes propagate down the hierarchy
-   - Modify at the highest level that needs the change
-   - Use `cmr repo template update` to sync with latest version
-
-**Example Configuration** (`.chimera-lab/meta.json`):
-
-```json
-{
-  "repo": {
-    "template": "app.template"
-  },
-  "remote_template": {
-    "repo": "<!-- <var key="org.name" applied> -->chimera-lab.org<!-- </var> -->/app.template",
-    "branch": "main"
-  }
-}
-```
+`directive: <llm prompt="Organization.Structure">`
 
 <!-- </llm> -->
 
 ## :toolbox: Tools
 
-<!-- <llm prompt="Organization.Tools" applied> -->
+<!-- <llm prompt="Organization.Tools"> -->
 
-### :toolbox: `cmr`
-
-The CMR CLI (`cmr`) automates <!-- <var key="org.name" applied> -->chimera-lab.org<!-- </var> --> repositories managing documentation validation, milestones, issues, labels, and git operations for submodules and templates. It unifies discovery, GitHub resources, and template workflows.
+`directive: <llm prompt="Organization.Tools">`
 
 <!-- </llm> -->
 

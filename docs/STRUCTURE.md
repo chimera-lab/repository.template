@@ -23,31 +23,15 @@ The structure is intentionally simple: core documents stay easy to find, while s
 
 ## :building_construction: Structure
 
-<!-- <llm prompt="Structure.Structure" applied> -->
+<!-- <llm prompt="Structure.Structure"> -->
 
-The repository is organized so that core, reusable documents live at the root and supporting material is grouped by purpose.
-
-- Root files provide the main entry points for contributors and consumers, including `README.md`, `TEMPLATE.md`, `DEVELOPMENT.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `CHANGELOG.md`, `LICENSE`, and `Makefile`.
-- `docs/` contains supplementary reference material, such as diagrams and deeper documentation that supports the main templates and guides.
-- `.github/` contains repository automation and agent-related configuration, including prompts, agents, and skills used to coordinate structured workflows.
-
-This layout keeps the repository easy to navigate: primary guidance is immediately visible at the top level, detailed references are isolated in `docs/`, and operational automation remains separate from user-facing documentation.
+`directive: <llm prompt="Structure.Structure">`
 
 <!-- </llm> -->` for README sections such as `Overview` or `Usage`
 
-<!-- <llm prompt="Namespace.Section" applied> -->
+<!-- <llm prompt="Namespace.Section"> -->
 
-Use `Namespace.Section` to document a focused capability within a broader module, package, or domain. The `Namespace` part identifies the owning area of the system, and the `Section` part identifies the specific concern being described. This naming pattern keeps documentation predictable, easy to scan, and consistent across related components.
-
-Document this section with:
-
-- the responsibility and scope of the component
-- key interfaces, inputs, and outputs
-- important dependencies and integration points
-- constraints, assumptions, and operational behavior
-- links to related sections when behavior spans multiple namespaces
-
-Prefer stable names over implementation details. If a component changes internally but its documented responsibility stays the same, keep the existing `Namespace.Section` name and update the content instead of creating duplicate sections.
+`directive: <llm prompt="Namespace.Section">`
 
 <!-- </llm> -->` for documentation pages such as `Architecture.Overview`
 
@@ -90,8 +74,16 @@ CMR directives are reserved for generated repository and organization inventorie
 **Syntax**:
 
 ```html
-<!-- <cmr cmd="group.command[key=value,...]"> --><!-- </cmr> -->
-<!-- <cmr cmd="group.command" applied> -->...content...<!-- </cmr> -->
+<!-- <cmr cmd="group.command[key=value,...]"> -->
+
+`directive: <cmr cmd="group.command[key=value,...]">`
+
+<!-- </cmr> -->
+<!-- <cmr cmd="group.command"> -->
+
+`directive: <cmr cmd="group.command">`
+
+<!-- </cmr> -->
 ```
 
 **Supported baseline directives in current workspace**:
@@ -163,7 +155,11 @@ All headers must use emoji prefixes from the standardized vocabulary. The table 
 
 <!-- <data name="headers"> -->
 
-<!-- <cmr cmd="docs.headers.list-typed" applied> --><!-- </cmr> -->
+<!-- <cmr cmd="docs.headers.list-typed"> -->
+
+`directive: <cmr cmd="docs.headers.list-typed">`
+
+<!-- </cmr> -->
 
 <!-- </data> -->
 

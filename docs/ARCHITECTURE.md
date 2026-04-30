@@ -17,88 +17,25 @@
 
 ## :telescope: Overview
 
-<!-- <llm prompt="Architecture.Overview" applied> -->
+<!-- <llm prompt="Architecture.Overview"> -->
 
-This document defines the technical architecture baseline for repositories derived from this template. It explains structural boundaries, integration points, and quality controls so implementations remain consistent across inherited templates.
+`directive: <llm prompt="Architecture.Overview">`
 
 <!-- </llm> -->
 
 ## :building_construction: Structure
 
-<!-- <llm prompt="Architecture.Structure" applied> -->
+<!-- <llm prompt="Architecture.Structure"> -->
 
-The repository is layered into governance, configuration, automation, documentation, and implementation concerns. Each layer has a clear purpose and is described in the subsections below.
-
-### :building_construction: Architectural Layers
-
-```text
-Repository Architecture
-├── Governance Layer
-│   ├── LICENSE
-│   ├── SECURITY.md
-│   ├── CODE_OF_CONDUCT.md
-│   └── CONTRIBUTING.md
-├── Configuration Layer
-│   ├── .chimera-lab/meta.json
-│   └── .chimera-lab/settings.json
-├── Automation Layer
-│   └── .github/{agents,prompts,skills,workflows}
-├── Documentation Layer
-│   ├── README.md
-│   ├── docs/{ARCHITECTURE,ORGANIZATION,ROADMAP,STRUCTURE}.md
-│   └── docs/knowledge/*.knowledge.md
-└── Implementation Layer
-  ├── src/
-  ├── tests/
-  └── tooling/config files
-```
-
-### :building_construction: Responsibilities Per Layer
-
-- Governance layer defines legal and contribution constraints for public distribution.
-- Configuration layer stores metadata and template-level behavior used by CMR workflows.
-- Automation layer is reserved for GitHub concerns only; no human documentation should be stored here.
-- Documentation layer hosts human-facing guides and LLM-oriented knowledge with explicit cross-references.
-- Implementation layer contains runtime code and test assets according to repository type.
-
-### :building_construction: Documentation Boundaries
-
-- Human documentation: detailed explanations and operational context in `docs/*.md`.
-- LLM knowledge: concise concept maps in `docs/knowledge/*.knowledge.md` with links to detailed docs.
-- Structural rule: `.github/` contains GitHub automation artifacts; documentation content belongs in `docs/`.
-
-### :building_construction: Template Inheritance Impact
-
-- `repository.template` is the architecture root for downstream templates.
-- Child templates may extend architecture details but should not break baseline layer boundaries.
-- Shared changes must be performed at the highest suitable template level to reduce duplication and drift.
+`directive: <llm prompt="Architecture.Structure">`
 
 <!-- </llm> -->
 
 ## :triangular_ruler: Technologies
 
-<!-- <llm prompt="Architecture.Technologies" applied> -->
+<!-- <llm prompt="Architecture.Technologies"> -->
 
-The technology baseline covers the core toolchain, validation tooling, and publication readiness expected for derived repositories.
-
-### :triangular_ruler: Core Toolchain
-
-- Git for source control and submodule orchestration.
-- CMR CLI for documentation validation, template synchronization, and structural checks.
-- GitHub Actions for CI validation and publication pipelines.
-
-### :triangular_ruler: Validation Tooling
-
-- `cmr docs check` for full documentation compliance.
-- `cmr docs check --tags` for LLM/CMR render directive validation.
-- `cmr docs fix -r toc -r header-emoji` for standardized formatting repair.
-- `cmr config headers list` for typed-header vocabulary verification.
-
-### :triangular_ruler: Publication Readiness
-
-- Repository should be publishable under Apache-2.0 with required notices preserved.
-- Documentation and metadata must be consistent before release tagging.
-- CI should fail on structural violations to prevent drift from template architecture.
+`directive: <llm prompt="Architecture.Technologies">`
 
 <!-- </llm> -->
 

@@ -24,11 +24,9 @@
 
 ## :clipboard: Requirements
 
-<!-- <llm prompt="Development.Requirements" applied> -->
+<!-- <llm prompt="Development.Requirements"> -->
 
-- Git installed
-- Your project's runtime environment (Node.js, Python, Go, etc.)
-- VS Code (recommended) or your preferred editor
+`directive: <llm prompt="Development.Requirements">`
 
 <!-- </llm> -->
 
@@ -43,64 +41,33 @@ cd <!-- <var key="repo.name" applied> -->repository.template<!-- </var> -->
 
 ### :inbox_tray: Create development environment
 
-<!-- <llm prompt="Development.Installation" applied> -->
+<!-- <llm prompt="Development.Installation"> -->
 
-Describe how to bootstrap an isolated development environment for this repository (virtualenv, nvm, Docker, etc.) including any prerequisite tools.
+`directive: <llm prompt="Development.Installation">`
 
 <!-- </llm> -->
 
 ### :inbox_tray: Install dependencies
 
-<!-- <llm prompt="Development.InstallDependencies" applied> -->
+<!-- <llm prompt="Development.InstallDependencies"> -->
 
-```bash
-# Use the appropriate command for your project type
-make install
-```
+`directive: <llm prompt="Development.InstallDependencies">`
 
 <!-- </llm> -->
 
 ### :inbox_tray: Install pre-commit hooks (optional but recommended)
 
-<!-- <llm prompt="Development.PreCommitHooks" applied> -->
+<!-- <llm prompt="Development.PreCommitHooks"> -->
 
-```bash
-pre-commit install
-```
+`directive: <llm prompt="Development.PreCommitHooks">`
 
 <!-- </llm> -->
 
 ## :keyboard: Usage
 
-<!-- <llm prompt="Development.Usage" applied> -->
+<!-- <llm prompt="Development.Usage"> -->
 
-Use Make (recommended) for common development tasks:
-
-```bash
-# Install dependencies
-make install
-
-# Run tests
-make test
-
-# Run linting
-make lint
-
-# Format code
-make format
-
-# Run all checks
-make check
-
-# Clean build artifacts
-make clean
-
-# Set up development environment
-make setup
-
-# Run the full CMR pipeline
-make cmr-pipeline
-```
+`directive: <llm prompt="Development.Usage">`
 
 <!-- </llm> -->
 
@@ -108,108 +75,56 @@ make cmr-pipeline
 
 ### :toolbox: Running Tests
 
-<!-- <llm prompt="Development.Tests" applied> -->
+<!-- <llm prompt="Development.Tests"> -->
 
-Explain how to run the test suite, the conventions tests must follow, and how to scope tests to a specific module or feature.
+`directive: <llm prompt="Development.Tests">`
 
 <!-- </llm> -->
 
 ### :toolbox: Code Quality
 
-<!-- <llm prompt="Development.CodeQuality" applied> -->
+<!-- <llm prompt="Development.CodeQuality"> -->
 
-Document the code quality tooling: linters, formatters, type checkers, and how to invoke each one (manually and via `make`).
+`directive: <llm prompt="Development.CodeQuality">`
 
 <!-- </llm> -->
 
 ### :toolbox: CMR Pipeline
 
-<!-- <llm prompt="Development.CmrPipeline" applied> -->
+<!-- <llm prompt="Development.CmrPipeline"> -->
 
-Use the CMR pipeline to keep template consumers synchronized and documentation validated.
-
-```bash
-# 1) Validate docs and directives
-make cmr-check
-
-# 2) Inspect template differences
-make cmr-template-diff
-
-# 3) Apply template changes
-make cmr-template-update
-
-# 4) Refresh directive output and TOC
-make cmr-render
-
-# 5) Run full flow in one command
-make cmr-pipeline
-```
-
-Pipeline order:
-
-```text
-check -> template diff -> template update -> render -> check
-```
-
-Notes:
-
-- `cmr-check` validates docs and tag directives.
-- `cmr-template-diff` is safe to run repeatedly before update.
-- `cmr-render` uses `cmr docs fix --tags` and `cmr docs fix -r toc` for deterministic refresh.
+`directive: <llm prompt="Development.CmrPipeline">`
 
 <!-- </llm> -->
 
 ### :toolbox: Pre-commit Hooks
 
-<!-- <llm prompt="Development.PreCommitTools" applied> -->
+<!-- <llm prompt="Development.PreCommitTools"> -->
 
-Pre-commit hooks automatically run checks before commits:
-
-```bash
-# Install hooks
-pre-commit install
-
-# Run manually
-pre-commit run --all-files
-```
+`directive: <llm prompt="Development.PreCommitTools">`
 
 <!-- </llm> -->
 
 ## :wrench: Configuration
 
-<!-- <llm prompt="Development.Configuration" applied> -->
+<!-- <llm prompt="Development.Configuration"> -->
 
-If using VS Code, the workspace is pre-configured with:
-
-- **Recommended extensions** (will prompt to install)
-- **Editor settings** (formatting, linting)
-- **Debug configurations** for your project type
-- **Task definitions** for common operations
+`directive: <llm prompt="Development.Configuration">`
 
 <!-- </llm> -->
 
 ## :control_knobs: Customization
 
-<!-- <llm prompt="Development.Customization" applied> -->
+<!-- <llm prompt="Development.Customization"> -->
 
-List the customization points exposed by the repository: configuration files, environment variables, feature flags, and template variables that downstream consumers can override.
+`directive: <llm prompt="Development.Customization">`
 
 <!-- </llm> -->
 
 ## :hammer_and_wrench: Common Problems
 
-<!-- <llm prompt="Development.CommonProblems" applied> -->
+<!-- <llm prompt="Development.CommonProblems"> -->
 
-### :hammer_and_wrench: Dependency errors
-
-Ensure you've installed all required dependencies
-
-### :hammer_and_wrench: Pre-commit failures
-
-Run `pre-commit run --all-files` to fix
-
-### :hammer_and_wrench: Test failures
-
-Check that all dependencies are correctly installed
+`directive: <llm prompt="Development.CommonProblems">`
 
 <!-- </llm> -->

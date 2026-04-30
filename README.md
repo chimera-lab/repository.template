@@ -1,9 +1,5 @@
 # :file_folder: <!-- <var key="repo.name" applied> -->repository.template<!-- </var> -->
 
-> **Arrived from GitHub?** This is a template baseline. See [:page_facing_up: TEMPLATE.md](TEMPLATE.md) for what it provides and how to use it.
-
-> <!-- <var key="repo.description" applied> -->Base template for all chimera-lab repositories<!-- </var> -->
-
 [![License](https://img.shields.io/github/license/chimera-lab/repository.template?style=flat-square)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/commits)
 [![Issues](https://img.shields.io/github/issues/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/issues)
@@ -21,33 +17,33 @@
 
 ## :telescope: Overview
 
-<!-- <llm prompt="Overview" applied> -->
+<!-- <llm prompt="Overview"> -->
 
-Provide a concise summary of what this repository does, its primary value proposition, and who it is for. Downstream repositories should regenerate this section with `cmr docs render --llm` to fit their specific purpose.
+`directive: <llm prompt="Overview">`
 
 <!-- </llm> -->
 
 ## :clipboard: Requirements
 
-<!-- <llm prompt="Requirements" applied> -->
+<!-- <llm prompt="Requirements"> -->
 
-List the runtime, tooling, and environment dependencies required to use this repository. Include version constraints and platform notes where relevant.
+`directive: <llm prompt="Requirements">`
 
 <!-- </llm> -->
 
 ## :inbox_tray: Installation
 
-<!-- <llm prompt="Installation" applied> -->
+<!-- <llm prompt="Installation"> -->
 
-Describe how to install or bootstrap the repository. Prefer copy-pasteable commands and call out any prerequisite steps.
+`directive: <llm prompt="Installation">`
 
 <!-- </llm> -->
 
 ## :keyboard: Usage
 
-<!-- <llm prompt="Usage" applied> -->
+<!-- <llm prompt="Usage"> -->
 
-Show the most common usage patterns. Lead with the simplest invocation, then progressively introduce options and advanced workflows.
+`directive: <llm prompt="Usage">`
 
 <!-- </llm> -->
 
@@ -61,15 +57,14 @@ Show the most common usage patterns. Lead with the simplest invocation, then pro
 
 ## :scroll: License
 
-<!-- <llm prompt="License" applied> -->
+<!-- <llm prompt="License"> -->
 
-- Licensed under the terms specified in [:link: LICENSE](LICENSE). Review before distributing or reusing this template.
+`directive: <llm prompt="License">`
 
 <!-- </llm> -->
 
-<!-- <cmr cmd="repo.tags[name=repository.template]" applied> -->
+<!-- <cmr cmd="repo.tags[name=repository.template]"> -->
 
-- template
-- repository
+`directive: <cmr cmd="repo.tags[name=repository.template]">`
 
 <!-- </cmr> -->
