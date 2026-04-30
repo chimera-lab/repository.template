@@ -2,10 +2,10 @@
 
 <!-- <badges name="brand,license,last-commit,issues,stars" applied> -->
 
-[![chimera-lab build · share · evolve](https://img.shields.io/badge/chimera--lab-build_·_share_·_evolve-6e40c9?style=flat-square)](https://github.com/chimera-lab)
-[![License](https://img.shields.io/github/license/chimera-lab/repository.template?style=flat-square)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/commits)
-[![Issues](https://img.shields.io/github/issues/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/issues)
+[![chimera-lab build · share · evolve](https://img.shields.io/badge/chimera--lab-build_·_share_·_evolve-6e40c9?style=flat-square)](https://github.com/chimera-lab)\
+[![License](https://img.shields.io/github/license/chimera-lab/repository.template?style=flat-square)](LICENSE)\
+[![Last commit](https://img.shields.io/github/last-commit/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/commits)\
+[![Issues](https://img.shields.io/github/issues/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/issues)\
 [![Stars](https://img.shields.io/github/stars/chimera-lab/repository.template?style=flat-square)](https://github.com/chimera-lab/repository.template/stargazers)
 
 <!-- </badges> -->
@@ -23,7 +23,9 @@
 
 <!-- <llm prompt="Overview" applied> -->
 
-This repository provides the baseline documentation and workflow template for a software project in the <!-- <var key="org.name" applied> -->chimera-lab.org<!-- </var> --> ecosystem. It defines a consistent structure for repository guidance, agent-driven collaboration, reusable skills, and supporting knowledge so teams can implement, maintain, review, and document work with the same patterns across projects.
+This repository provides the standard template for software repositories in <!-- <var key="org.name" applied> -->chimera-lab.org<!-- </var> -->. It establishes a consistent foundation for project documentation, agent-oriented workflows, reusable prompts and skills, and repository structure so new and existing projects follow the same conventions.
+
+Use this template as the baseline for creating or aligning repositories that need clear organization, maintainable documentation, and predictable collaboration patterns across code, automation, and operational knowledge.
 
 <!-- </llm> -->
 
@@ -37,13 +39,15 @@ This repository provides the baseline documentation and workflow template for a 
 
 <!-- <llm prompt="Requirements" applied> -->
 
-- Git installed locally and access to a GitHub repository with permission to create branches, commits, and pull requests.
-- A standard development environment on Linux, macOS, or Windows; a Bash-compatible shell is recommended for command-line workflows.
-- A text editor or IDE that can edit Markdown, YAML, and source files used by the repository.
-- Working knowledge of basic Git operations, pull request review, and repository-based collaboration.
-- If repository automation is used, access to the relevant GitHub Actions, secrets, and environment configuration is required.
+Before working with this repository, ensure the following are available:
 
-Keep local tooling aligned with the versions and conventions defined by the repository itself.
+- Access to GitHub with permission to clone, fork, and open pull requests against the repository.
+- Git installed locally and a standard command-line environment.
+- The language runtime, toolchain, and package manager required by this project, as defined by the repository manifests and automation configuration.
+- A local environment capable of running the repository's install, build, lint, and test commands.
+- Any required environment variables, credentials, or service connections needed for development, CI, or deployment workflows.
+
+Project-specific versions, setup commands, and external dependencies should be documented in the repository configuration and accompanying development guides.
 
 <!-- </llm> -->
 
@@ -51,17 +55,20 @@ Keep local tooling aligned with the versions and conventions defined by the repo
 
 <!-- <llm prompt="Installation" applied> -->
 
-This repository is intended to be used as a GitHub template rather than installed as a package.
+This repository is a template, so there is no installation step for the template itself.
 
-1. Create a new repository from this template using **Use this template** on GitHub.
-2. Clone your new repository locally:
+To use it:
+
+1. Click **Use this template** on GitHub to create a new repository from it.
+2. Clone your new repository:
    ```bash
    git clone <your-repository-url>
    cd <your-repository-name>
    ```
-3. Review the template files, replace placeholder content, and commit your project-specific changes.
+3. Replace the template placeholders, example values, and repository-specific metadata with your project details.
+4. Continue with the setup instructions for the actual software you build from this template.
 
-If you are evaluating the template before creating a repository, you can clone it directly and inspect the structure locally.
+If you are contributing to the template itself, clone this repository directly and work on the source files in place.
 
 <!-- </llm> -->
 
@@ -69,15 +76,15 @@ If you are evaluating the template before creating a repository, you can clone i
 
 <!-- <llm prompt="Usage" applied> -->
 
-Use this repository as the starting point for a new Chimera-compatible project.
+Use this repository as a starting point for a new project repository.
 
-1. Create a new repository from this template.
-2. Replace template variables, placeholders, and organization-specific values.
-3. Update the agent, prompt, skill, knowledge, and documentation files for your project.
-4. Keep the intended structure intact: prompts -> agent manager -> subagents -> skills -> knowledge -> docs.
-5. Review repository automation and validation files before publishing.
+1. Create a new repository from this template, or copy its contents into an existing repository.
+2. Replace template variables and organization-specific placeholders, including `<!-- <var ...> -->` blocks, repository metadata, and documentation text.
+3. Update the agent, prompt, skill, and knowledge files under `.github/` to match your project structure and workflow.
+4. Review the generated documentation and diagrams, then remove any files or sections that do not apply to your repository.
+5. Commit the customized result and continue normal repository development from there.
 
-After setup, use the repository as the canonical source for your agent architecture, documentation structure, and collaboration conventions.
+When adapting the template, keep the layer separation pattern intact: prompts route to agents, agents use skills, skills reference knowledge, and documentation reflects that structure.
 
 <!-- </llm> -->
 
