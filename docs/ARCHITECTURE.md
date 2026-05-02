@@ -4,15 +4,9 @@
 
 - [:file_folder: Architecture](./#file_folder-architecture)
   - [:telescope: Overview](./#telescope-overview)
-  - [:building_construction: Structure](./#building_construction-structure)
-    - [:building_construction: Architectural Layers](./#building_construction-architectural-layers)
-    - [:building_construction: Responsibilities Per Layer](./#building_construction-responsibilities-per-layer)
-    - [:building_construction: Documentation Boundaries](./#building_construction-documentation-boundaries)
-    - [:building_construction: Template Inheritance Impact](./#building_construction-template-inheritance-impact)
   - [:triangular_ruler: Technologies](./#triangular_ruler-technologies)
-    - [:triangular_ruler: Core Toolchain](./#triangular_ruler-core-toolchain)
-    - [:triangular_ruler: Validation Tooling](./#triangular_ruler-validation-tooling)
-    - [:triangular_ruler: Publication Readiness](./#triangular_ruler-publication-readiness)
+  - [:building_construction: Structure](./#building_construction-structure)
+  - [:jigsaw: Components](./#jigsaw-components)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview
@@ -20,6 +14,14 @@
 <!-- <llm prompt="Architecture.Overview"> -->
 
 `directive: <llm prompt="Architecture.Overview">`
+
+<!-- </llm> -->
+
+## :triangular_ruler: Technologies
+
+<!-- <llm prompt="Architecture.Technologies"> -->
+
+`directive: <llm prompt="Architecture.Technologies">`
 
 <!-- </llm> -->
 
@@ -31,11 +33,11 @@
 
 <!-- </llm> -->
 
-## :triangular_ruler: Technologies
+## :jigsaw: Components
 
-<!-- <llm prompt="Architecture.Technologies"> -->
+<!-- <llm prompt="Architecture.Components"> -->
 
-`directive: <llm prompt="Architecture.Technologies">`
+`directive: <llm prompt="Architecture.Components">`
 
 <!-- </llm> -->
 

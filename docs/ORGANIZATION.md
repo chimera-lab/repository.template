@@ -5,12 +5,7 @@
 - [:file_folder: Organization](./#file_folder-organization)
   - [:telescope: Overview](./#telescope-overview)
   - [:building_construction: Structure](./#building_construction-structure)
-    - [:building_construction: Knowledge & Research](./#building_construction-knowledge-research)
-    - [:building_construction: Implementation](./#building_construction-implementation)
-    - [:building_construction: Templates & Tools](./#building_construction-templates-tools)
-    - [:building_construction: Template Inheritance](./#building_construction-template-inheritance)
   - [:toolbox: Tools](./#toolbox-tools)
-    - [:toolbox: `cmr`](./#toolbox-cmr)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview

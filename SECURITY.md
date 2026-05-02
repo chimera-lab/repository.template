@@ -28,5 +28,5 @@
 
 ## :books: References
 
-- Primary security contact: [:link: <!-- <var key="org.contacts.email.security"> --><!-- </var> -->](mailto:<!-- <var key="org.contacts.email.security"> --><!-- </var> -->).
+- Primary security contact: \[:link: <!-- <var key="org.contacts.email.security"> --><!-- </var> -->]\(mailto:<!-- <var key="org.contacts.email.security"> --><!-- </var> -->).
 - Review [:page_facing_up: CODE\_OF\_CONDUCT.md](CODE_OF_CONDUCT.md) for expected behavior when communicating about security issues.

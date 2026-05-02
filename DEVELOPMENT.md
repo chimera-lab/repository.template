@@ -18,9 +18,6 @@
   - [:wrench: Configuration](./#wrench-configuration)
   - [:control_knobs: Customization](./#control_knobs-customization)
   - [:hammer_and_wrench: Common Problems](./#hammer_and_wrench-common-problems)
-    - [:hammer_and_wrench: Dependency errors](./#hammer_and_wrench-dependency-errors)
-    - [:hammer_and_wrench: Pre-commit failures](./#hammer_and_wrench-pre-commit-failures)
-    - [:hammer_and_wrench: Test failures](./#hammer_and_wrench-test-failures)
 
 ## :clipboard: Requirements
 
@@ -34,10 +31,30 @@
 
 ### :inbox_tray: Clone the repository
 
+<!-- <code lang="bash"> -->
+
+<!-- <data name="REPO_REMOTE"> -->
+
+<!-- <var key="repo.remote"> -->
+
+<!-- </var> -->
+
+<!-- </data name="REPO_REMOTE"> -->
+
+<!-- <data name="REPO_NAME"> -->
+
+<!-- <var key="repo.name"> -->
+
+<!-- </var> -->
+
+<!-- </data name="REPO_NAME"> -->
+
 ```bash
-git clone <!-- <var key="repo.remote" applied> -->git@github.com:chimera-lab/repository.template.git<!-- </var> -->
-cd <!-- <var key="repo.name" applied> -->repository.template<!-- </var> -->
+git clone $REPO_REMOTE
+cd $REPO_NAME
 ```
+
+<!-- </code> -->
 
 ### :inbox_tray: Create development environment
 
