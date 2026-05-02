@@ -4,9 +4,7 @@
 
 - [:file_folder: Changelog](./#file_folder-changelog)
   - [:notebook: Notes](./#notebook-notes)
-    - [:notebook: v1.0.0 – Public Release](./#notebook-v100-public-release)
     - [:notebook: v0.0.1 – <!-- <var key="org.name" applied> -->chimera-lab.org<!-- </var> -->](./#notebook-v001-var-keyorgname-applied-chimera-laborg-var)
-    - [:notebook: v0.0.2 – AI Usage](./#notebook-v002-ai-usage)
 
 ## :notebook: Notes
 

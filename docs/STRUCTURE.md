@@ -5,10 +5,9 @@
 - [:file_folder: Repository Structure](./#file_folder-repository-structure)
   - [:telescope: Overview](./#telescope-overview)
   - [:building_construction: Structure](./#building_construction-structure)
-    - [:building_construction: CMR Directive Catalog](./#building_construction-cmr-directive-catalog)
     - [:building_construction: Layer Separation Rules](./#building_construction-layer-separation-rules)
-    - [:building_construction: Semantic Header Vocabulary](./#building_construction-semantic-header-vocabulary)
-    - [:building_construction: GitHub Automation Structure](./#building_construction-github-automation-structure)
+      - [:building_construction: Semantic Header Vocabulary](./#building_construction-semantic-header-vocabulary)
+      - [:building_construction: GitHub Automation Structure](./#building_construction-github-automation-structure)
   - [:books: References](./#books-references)
 
 ## :telescope: Overview

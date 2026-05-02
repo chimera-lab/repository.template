@@ -4,7 +4,6 @@
 
 - [:file_folder: Roadmap](./#file_folder-roadmap)
   - [:telescope: Overview](./#telescope-overview)
-  - [:building_construction: Structure](./#building_construction-structure)
   - [:memo: To-Do List](./#memo-to-do-list)
   - [:books: References](./#books-references)
 
