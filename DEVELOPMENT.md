@@ -35,21 +35,20 @@
 
 <!-- <data name="REPO_REMOTE"> -->
 
-<!-- <var key="repo.remote"> -->
-
-<!-- </var> -->
+<!-- <var key="repo.remote" applied> -->git@github.com:chimera-lab/repository.template.git<!-- </var> -->
 
 <!-- </data name="REPO_REMOTE"> -->
 
 <!-- <data name="REPO_NAME"> -->
 
-<!-- <var key="repo.name"> -->
-
-<!-- </var> -->
+<!-- <var key="repo.name" applied> -->repository.template<!-- </var> -->
 
 <!-- </data name="REPO_NAME"> -->
 
 ```bash
+REPO_REMOTE=git@github.com:chimera-lab/repository.template.git
+REPO_NAME=repository.template
+
 git clone $REPO_REMOTE
 cd $REPO_NAME
 ```
