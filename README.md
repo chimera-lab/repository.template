@@ -58,5 +58,5 @@
 - [:page_facing_up: CODE\_OF\_CONDUCT.md](CODE_OF_CONDUCT.md)
 - [:page_facing_up: CONTRIBUTING.md](CONTRIBUTING.md)
 - [:page_facing_up: SECURITY.md](SECURITY.md)
-- [:page_facing_up: ./docs/STRUCTURE.md](./docs/STRUCTURE.md) - Project Structure
-- [:page_facing_up: ./docs/ORGANIZATION.md](./docs/ORGANIZATION.md) - Managing entity
+- [:page_facing_up: ./docs/STRUCTURE.md](./docs/STRUCTURE.md)
+- [:page_facing_up: ./docs/ORGANIZATION.md](./docs/ORGANIZATION.md)
