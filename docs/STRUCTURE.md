@@ -32,18 +32,6 @@
 
 <!-- </llm> -->
 
-<!-- <cmr cmd="docs.mappings.list"> -->
-
-`directive: <cmr cmd="docs.mappings.list">`
-
-<!-- </cmr> -->
-
-<!-- <cmr cmd="docs.directives.list"> -->
-
-`directive: <cmr cmd="docs.directives.list">`
-
-<!-- </cmr> -->
-
 ### :building_construction: Layer Separation Rules
 
 <!-- <llm prompt="Structure.LayerSeparation"> -->
@@ -59,17 +47,6 @@
 `directive: <llm prompt="Structure.SemanticHeaders">`
 
 <!-- </llm> -->
-
-<!-- <table Emoji="headers.items.*.emoji" Name="headers.items.*.name" Category="headers.items.*.category" Description="headers.items.*.description" Examples="headers.items.*.examples"> -->
-<!-- <data name="headers"> -->
-<!-- <cmr cmd="docs.headers.list-typed"> -->
-
-`directive: <cmr cmd="docs.headers.list-typed">`
-
-<!-- </cmr> -->
-<!-- </data> -->
-
-<!-- </table> -->
 
 #### :building_construction: GitHub Automation Structure
 

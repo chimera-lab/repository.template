@@ -29,12 +29,6 @@
 
 <!-- </llm> -->
 
-<!-- <cmr cmd="repo.tags[name=repository.template]"> -->
-
-`directive: <cmr cmd="repo.tags[name=repository.template]">`
-
-<!-- </cmr> -->
-
 ## :clipboard: Requirements
 
 <!-- <llm prompt="Requirements"> -->
