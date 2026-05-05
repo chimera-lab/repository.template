@@ -12,9 +12,9 @@
   "createdAt": "2026-04-28T02:16:31.995Z",
   "updatedAt": "2026-04-29T16:42:54.266Z",
   "repo": {
-    "template": "repository.template",
+    "template": null,
+    "templateHash": null,
     "name": "repository.template",
-    "type": "template",
-    "templateHash": "8ab3e98888d24af028f82edacfd6a31ad05ebb7a"
+    "type": "template"
   }
 }
