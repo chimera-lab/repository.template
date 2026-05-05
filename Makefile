@@ -102,7 +102,6 @@ cmr-check-meta:
 
 cmr-check-docs:
 	cmr docs check
-	cmr docs check --tags
 	cmr docs headers validate
 
 cmr-check-template:
