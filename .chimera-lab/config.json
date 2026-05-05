@@ -1,5 +1,54 @@
 {
   "validation": {},
+  "labels": {
+    "synced": [
+      {
+        "name": "bug",
+        "color": "d73a4a",
+        "description": "Something isn't working"
+      },
+      {
+        "name": "documentation",
+        "color": "0366d6",
+        "description": "Improvements or additions to documentation"
+      },
+      {
+        "name": "duplicate",
+        "color": "7e7e7e",
+        "description": "This issue or pull request already exists"
+      },
+      {
+        "name": "enhancement",
+        "color": "22863a",
+        "description": "New feature or request"
+      },
+      {
+        "name": "good first issue",
+        "color": "7057ff",
+        "description": "Good for newcomers"
+      },
+      {
+        "name": "help wanted",
+        "color": "ff7f50",
+        "description": "Extra attention is needed"
+      },
+      {
+        "name": "invalid",
+        "color": "e4e669",
+        "description": "This doesn't seem right"
+      },
+      {
+        "name": "question",
+        "color": "ff69b4",
+        "description": "Further information is requested"
+      },
+      {
+        "name": "wontfix",
+        "color": "4b0000",
+        "description": "This will not be worked on"
+      }
+    ]
+  },
   "llm": {
     "headerPrompts": {
       "Overview": "write a concise overview of this repository describing its purpose, scope, and role within the organization",
@@ -17,7 +66,22 @@
       "Structure.LayerSeparation": "document the layer separation rules for documentation organization, including the hierarchy diagram, the allowed references table between prompts/agents/skills/knowledge/docs layers, and the forbidden references table. mention that the layer graph can be visualized with `cmr graph agents relation` (PlantUML diagram of prompts → agents → skills → knowledge → docs) and `cmr graph docs structure` (documentation file tree)",
       "Structure.SemanticHeaders": "describe the standardized semantic header vocabulary used across documentation",
       "Structure.GitHubAutomation": "document the .github/ directory structure reserved for GitHub automation only, listing the directories and the constraint that all agents/prompts/skills reference documentation via knowledge, never vice versa",
-      "Structure.References": "list the reference links to related documentation files for this repository structure page"
+      "Structure.References": "list the reference links to related documentation files for this repository structure page",
+      "Structure.Structure": "describe the file and directory layout of this repository, listing key paths and their roles",
+      "Organization.Structure": "describe the organizational structure of this repository, including teams, responsibilities, and ownership model",
+      "Organization.Tools": "list and describe the tools used to manage this repository's organization, including CMR CLI commands and GitHub resources",
+      "Development.Requirements": "list the prerequisites and system requirements needed to set up a development environment for this repository",
+      "Development.Installation": "describe how to clone and configure this repository for development",
+      "Development.InstallDependencies": "describe how to install the project dependencies for this repository",
+      "Development.PreCommitHooks": "describe how to install and configure pre-commit hooks for this repository",
+      "Development.Usage": "describe the primary development usage patterns, including how to run the project locally",
+      "Development.Tests": "describe how to run the test suite for this repository, including available test commands and frameworks used",
+      "Development.CodeQuality": "describe the code quality tools configured for this repository, including linters, formatters, and how to run them",
+      "Development.CmrPipeline": "describe the CMR CLI pipeline commands available in this repository and how to use them during development",
+      "Development.PreCommitTools": "describe the pre-commit hook tools configured for this repository and their purpose",
+      "Development.Configuration": "describe the configuration options available for this repository and how to customize them",
+      "Development.Customization": "describe how to customize or extend this repository beyond default configuration",
+      "Development.CommonProblems": "list common development problems and their solutions for this repository"
     }
   }
 }

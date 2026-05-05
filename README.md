@@ -1,4 +1,4 @@
-# :file_folder: <!-- <var key="repo.name" applied> -->repository.template<!-- </var> -->
+# :file_folder: <!-- <var key="repo.name"> --><!-- </var> -->
 
 <!-- <badges name="brand"> -->
 
@@ -14,7 +14,7 @@
 
 ## :book: Table of Contents
 
-- [:file_folder: <!-- <var key="repo.name" applied> -->repository.template<!-- </var> -->](./#file_folder-var-keyreponame-applied-repositorytemplate-var)
+- [:file_folder: <!-- <var key="repo.name"> --><!-- </var> -->](./#file_folder-var-keyreponame-var)
   - [:telescope: Overview](./#telescope-overview)
   - [:clipboard: Requirements](./#clipboard-requirements)
   - [:inbox_tray: Installation](./#inbox_tray-installation)

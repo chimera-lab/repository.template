@@ -1,6 +1,6 @@
 ---
 name: deployment
-description: Patterns for releasing, versioning, and deploying <!-- <var key="org.name" applied> -->chimera-lab.org<!-- </var> --> projects
+description: Patterns for releasing, versioning, and deploying <!-- <var key="org.name"> --><!-- </var> --> projects
 ---
 
 # :file_folder: Deployment Knowledge

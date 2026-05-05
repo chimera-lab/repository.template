@@ -26,12 +26,6 @@
 
 <!-- </llm> -->
 
-<!-- <llm prompt="Namespace.Section"> -->
-
-`directive: <llm prompt="Namespace.Section">`
-
-<!-- </llm> -->
-
 ### :building_construction: Layer Separation Rules
 
 <!-- <llm prompt="Structure.LayerSeparation"> -->
